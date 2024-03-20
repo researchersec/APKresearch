@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/divider" android:tag="layout/b2b_divider_0" android:background="@color/b2b_cross_sell_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/b2b_divider_height" android:layout_marginStart="@dimen/offset_40dp" android:layout_marginEnd="@dimen/offset_40dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

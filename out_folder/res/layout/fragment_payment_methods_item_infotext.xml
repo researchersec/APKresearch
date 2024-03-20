@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/fragment_payment_methods_item_infotext_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offset_12dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_info_text_icon" android:tag="binding_1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/empty" android:layout_marginEnd="@dimen/payments_infotext_icon_margin_end" />
+    <TextView android:id="@id/tv_info_text" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Payments.Texts.InfoText" />
+</LinearLayout>

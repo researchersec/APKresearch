@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/debugToggleButton" android:layout_width="250.0dip" android:layout_height="60.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/ep_black" android:id="@id/navigationStateText" android:background="#88ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="18.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/ep_black" android:id="@id/reroutingToggleText" android:background="#88ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="18.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/navigationStateText" />
+    <TextView android:id="@id/zoomLevelText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="18.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/reroutingToggleText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

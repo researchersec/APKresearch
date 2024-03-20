@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:tag="layout/item_type_business_registration_title_subtitle_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offset_28dp" android:lineSpacingExtra="4.0sp" android:layout_marginStart="@dimen/offset_24dp" android:layout_marginEnd="@dimen/offset_24dp" style="@style/B2B.Text.21.bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

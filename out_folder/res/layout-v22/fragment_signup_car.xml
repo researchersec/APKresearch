@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_signup_car_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/view_reg_flow_indicator" android:visibility="gone" layout="@layout/element_reg_flow_progress_indicator" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_root_container" android:tag="binding_1" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" android:paddingStart="@dimen/signup_activity_margin" android:paddingEnd="@dimen/signup_activity_margin">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="right" android:id="@id/iv_close_icon" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ll_close_charcoal_to_sq30dp" android:translationX="@dimen/signup_activity_margin" />
+        <TextView android:id="@id/tv_add_car_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/signup_end_text_top" android:text="@string/signup_add_car_title" style="@style/Signup.Texts.Title.H2" />
+        <TextView android:id="@id/tv_add_car_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/signup_end_text_top" android:text="@string/signup_add_car_text" style="@style/Signup.Texts" />
+        <EditText android:id="@id/et_licence_plate_number" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_24dp" android:hint="@string/signup_add_car_hint" android:inputType="textVisiblePassword" android:imeOptions="actionGo" android:importantForAutofill="no" style="@style/Signup.EditText" />
+        <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include android:id="@id/fl_next" android:visibility="visible" layout="@layout/element_next_later" />
+    </LinearLayout>
+</LinearLayout>

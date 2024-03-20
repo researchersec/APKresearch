@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/offset_12dp" />
+            <solid android:color="@color/b2b_accent_5_percent_alpha" />
+            <stroke android:width="@dimen/offset_2dp" android:color="@color/b2b_accent" />
+        </shape>
+    </item>
+    <item android:state_activated="true">
+        <shape>
+            <corners android:radius="@dimen/offset_12dp" />
+            <solid android:color="@color/b2b_accent_5_percent_alpha" />
+            <stroke android:width="@dimen/offset_2dp" android:color="@color/b2b_accent" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="@dimen/offset_12dp" />
+            <solid android:color="@color/b2b_accent_5_percent_alpha" />
+            <stroke android:width="@dimen/offset_2dp" android:color="@color/b2b_accent" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/offset_12dp" />
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/offset_1dp" android:color="@color/b2b_package_border_color" />
+        </shape>
+    </item>
+</selector>

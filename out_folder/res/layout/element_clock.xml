@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_clock_outline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sl_clock_outline_grey_sq50dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/ep_text_color_light" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_clock_hour" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sl_clock_hour_grey_sq50dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/ep_text_color_light" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_clock_minute" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sl_clock_minute_grey_sq50dp" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/ep_text_color_light" />
+</merge>

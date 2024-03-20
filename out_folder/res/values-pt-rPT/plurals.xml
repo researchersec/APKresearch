@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+    <plurals name="numberOfDays">
+        <item quantity="other">dias</item>
+        <item quantity="one">dia</item>
+    </plurals>
+    <plurals name="time_unit_days">
+        <item quantity="other">%ddias</item>
+        <item quantity="one">%ddia</item>
+    </plurals>
+    <plurals name="time_unit_hours">
+        <item quantity="other">%dhoras</item>
+        <item quantity="one">%dhora</item>
+    </plurals>
+    <plurals name="time_unit_minutes">
+        <item quantity="other">%dminutos</item>
+        <item quantity="one">%dminuto</item>
+    </plurals>
+    <plurals name="time_unit_months">
+        <item quantity="other">%dmeses</item>
+        <item quantity="one">%dmês</item>
+    </plurals>
+    <plurals name="time_unit_weeks">
+        <item quantity="other">%dsemanas</item>
+        <item quantity="one">%dsemana</item>
+    </plurals>
+    <plurals name="time_unit_years">
+        <item quantity="other">%danos</item>
+        <item quantity="one">%dano</item>
+    </plurals>
+</resources>

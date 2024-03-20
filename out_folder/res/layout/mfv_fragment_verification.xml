@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/mfv_fragment_verification_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/mfv_header" />
+    <TextView android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mfv_verification_title" android:lines="1" android:layout_marginStart="@dimen/offset_24dp" android:layout_marginEnd="@dimen/offset_24dp" style="?textAppearanceHeadline6" />
+    <TextView android:id="@id/tv_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_16dp" android:text="@string/mfv_verification_description" android:layout_marginStart="@dimen/offset_24dp" android:layout_marginEnd="@dimen/offset_24dp" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/text_input_frame" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_20dp" android:layout_marginTop="@dimen/offset_16dp" android:layout_marginRight="@dimen/offset_20dp" bind:errorEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/et_field" android:tag="binding_2" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:maxLength="20" android:inputType="textCapCharacters|textUri" android:imeOptions="actionNext">
+            <requestFocus />
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:id="@id/tv_link_forgot_licence_plate" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_8dp" android:text="@string/mfv_verification_forgot_plate" android:layout_marginStart="@dimen/offset_18dp" android:layout_marginEnd="@dimen/offset_18dp" style="?textLinkStyle" />
+    <include android:layout_gravity="center" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mfv_next_button_margin" layout="@layout/mfv_next_button" />
+</LinearLayout>

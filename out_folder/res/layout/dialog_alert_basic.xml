@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dialog_alert_basic_0" android:background="@color/ep_white_background" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/tv_top_container" layout="@layout/element_bind_dialog_title_v2_pink" />
+    <TextView android:textSize="@dimen/fontSize_14sp" android:textColor="@color/ep_text_color_normal" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+    <CheckBox android:textSize="@dimen/fontSize_14sp" android:textColor="@color/ep_text_color_normal" android:id="@id/cb_do_not_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="32.0dip" />
+</LinearLayout>

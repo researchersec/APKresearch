@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificacions noves</item>
+        <item quantity="one">%d notificació nova</item>
+    </plurals>
+    <plurals name="time_unit_days">
+        <item quantity="other">%d dies</item>
+        <item quantity="one">%d dia</item>
+    </plurals>
+    <plurals name="time_unit_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="time_unit_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="time_unit_months">
+        <item quantity="other">%d mesos</item>
+        <item quantity="one">%d mes</item>
+    </plurals>
+    <plurals name="time_unit_weeks">
+        <item quantity="other">%d setmanes</item>
+        <item quantity="one">%d setmana</item>
+    </plurals>
+    <plurals name="time_unit_years">
+        <item quantity="other">%d anys</item>
+        <item quantity="one">%d any</item>
+    </plurals>
+</resources>

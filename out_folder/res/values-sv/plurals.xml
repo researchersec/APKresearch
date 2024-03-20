@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="time_unit_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dygn</item>
+    </plurals>
+    <plurals name="time_unit_hours">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
+    </plurals>
+    <plurals name="time_unit_minutes">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="time_unit_months">
+        <item quantity="other">%d månader</item>
+        <item quantity="one">%d månad</item>
+    </plurals>
+    <plurals name="time_unit_weeks">
+        <item quantity="other">%d veckor</item>
+        <item quantity="one">%d vecka</item>
+    </plurals>
+    <plurals name="time_unit_years">
+        <item quantity="other">%d år</item>
+        <item quantity="one">%d år</item>
+    </plurals>
+</resources>

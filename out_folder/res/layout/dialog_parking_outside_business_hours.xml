@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/relativeLayout2" android:tag="layout/dialog_parking_outside_business_hours_0" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/element_header" layout="@layout/element_bind_dialog_title_v2_pink" />
+    <TextView android:id="@id/tv_outside_business_hours_message" android:tag="binding_1" android:paddingTop="@dimen/offset_12dp" android:paddingBottom="@dimen/offset_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_8dp" android:paddingStart="@dimen/offset_16dp" android:paddingEnd="@dimen/offset_16dp" style="@style/Signup.Texts" />
+    <View android:id="@id/line_divider" android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="@dimen/offset_4dp" android:layout_marginTop="40.0dip" />
+    <TextView android:gravity="center" android:id="@id/tv_action" android:tag="binding_2" android:background="@drawable/bg_bottom_border" android:padding="@dimen/offset_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Payments.Texts.Title.Action" />
+    <TextView android:gravity="center" android:id="@id/tv_cancel" android:tag="binding_3" android:padding="@dimen/offset_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/generic_cancel" style="@style/Signup.Texts" />
+</LinearLayout>

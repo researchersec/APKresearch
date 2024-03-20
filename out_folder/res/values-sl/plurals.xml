@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="time_unit_days">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dan</item>
+        <item quantity="two">%d dneva</item>
+        <item quantity="few"></item>
+    </plurals>
+    <plurals name="time_unit_hours">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="time_unit_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few"></item>
+    </plurals>
+    <plurals name="time_unit_months">
+        <item quantity="other">%d mesecev</item>
+        <item quantity="one">%d mesec</item>
+        <item quantity="two">%d mesca</item>
+        <item quantity="few"></item>
+    </plurals>
+    <plurals name="time_unit_weeks">
+        <item quantity="other">%d tednov</item>
+        <item quantity="one">%d teden</item>
+        <item quantity="two">%d tedna</item>
+        <item quantity="few"></item>
+    </plurals>
+    <plurals name="time_unit_years">
+        <item quantity="other">%d leta</item>
+        <item quantity="one">%d leto</item>
+        <item quantity="two"></item>
+        <item quantity="few"></item>
+    </plurals>
+</resources>

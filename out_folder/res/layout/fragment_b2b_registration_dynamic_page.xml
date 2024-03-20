@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:tag="layout/fragment_b2b_registration_dynamic_page_0" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/top_bar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_alignParentTop="true" android:paddingStart="@dimen/offset_10dp" android:paddingEnd="@dimen/offset_15dp">
+        <ImageView android:layout_gravity="end|center" android:id="@id/close_button" android:tag="binding_1" android:background="?android:selectableItemBackgroundBorderless" android:padding="@dimen/offset_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" bind:srcCompat="@drawable/ic_close_ps" bind:tint="@color/text_primary" />
+    </FrameLayout>
+    <ProgressBar android:id="@id/spinner" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" android:indeterminateTint="@color/ep_text_color_purple" android:indeterminateTintMode="src_atop" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_of_suggestions" android:tag="binding_3" android:paddingTop="@dimen/offset_24dp" android:paddingBottom="@dimen/offset_32dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_bar" bind:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</RelativeLayout>

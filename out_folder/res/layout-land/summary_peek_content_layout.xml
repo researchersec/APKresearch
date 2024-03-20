@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/summaryPeekContent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="26.0sp" android:textColor="?navigationViewPrimaryText" android:id="@id/timeRemainingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <ImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="16.0dip" android:tint="?navigationViewSecondary" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/ic_circle" />
+    <TextView android:textSize="24.0sp" android:textColor="?navigationViewSecondaryText" android:ellipsize="end" android:id="@id/distanceRemainingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="16.0dip" />
+    <ImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="16.0dip" android:tint="?navigationViewSecondary" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/ic_circle" />
+    <TextView android:textSize="24.0sp" android:textColor="?navigationViewSecondaryText" android:ellipsize="end" android:id="@id/arrivalTimeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="16.0dip" />
+</LinearLayout>

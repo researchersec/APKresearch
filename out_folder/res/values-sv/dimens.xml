@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topbar_area_code_max_texts_width">54.0dip</dimen>
+    <dimen name="topbar_area_code_max_texts_width_v2">118.0dip</dimen>
+    <dimen name="topbar_area_code_padding_right">24.0dip</dimen>
+</resources>

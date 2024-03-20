@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="24.0dip" android:width="24.0dip" />
+            <solid android:color="@color/transparent" />
+        </shape>
+    </item>
+    <item>
+        <inset android:drawable="@drawable/ic_close_charcoal_sq24dp" android:insetLeft="4.0dip" android:insetRight="4.0dip" android:insetTop="4.0dip" android:insetBottom="4.0dip" />
+    </item>
+</layer-list>

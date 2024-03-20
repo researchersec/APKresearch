@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_info_padding_end">32.0dip</dimen>
+    <dimen name="bar_info_padding_start">32.0dip</dimen>
+    <dimen name="fab_feedback_margin_top">16.0dip</dimen>
+    <dimen name="fab_margin_bottom">8.0dip</dimen>
+    <dimen name="text_heading_normal">21.25sp</dimen>
+    <dimen name="text_normal">16.0sp</dimen>
+    <dimen name="text_small">13.699982sp</dimen>
+</resources>

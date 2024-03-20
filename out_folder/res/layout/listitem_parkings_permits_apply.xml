@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_list_item_container" android:tag="layout/listitem_parkings_permits_apply_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/listitem_parkings_height" style="@style/ListItem.History.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/sl_arrow_right_white" android:tint="@color/ep_text_color_light" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/fontSize_18sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/apply_for_permit" android:layout_marginStart="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

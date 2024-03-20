@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fl_feedback_form" android:tag="layout/activity_feedback_0" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/iv_close_icon" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:src="@drawable/ll_close_charcoal_to_sq30dp" android:translationX="@dimen/offset_24dp" android:paddingStart="@dimen/offset_24dp" android:paddingEnd="@dimen/offset_24dp" android:layout_marginEnd="@dimen/offset_16dp" />
+    <fragment android:name="net.easypark.android.mvp.feedback.FeedbackFormFragment" android:id="@id/fragment_form" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <fragment android:name="net.easypark.android.mvp.feedback.FeedbackThanksFragment" android:id="@id/fragment_thanks" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

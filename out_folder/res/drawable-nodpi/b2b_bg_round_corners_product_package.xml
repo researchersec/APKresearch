@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/offset_4dp" />
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/b2b_registration_search_round_rect_thickness" android:color="@color/text_primary" />
+        </shape>
+    </item>
+</layer-list>

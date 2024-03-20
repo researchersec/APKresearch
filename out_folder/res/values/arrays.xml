@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="motionize_parking_difficulty">
+        <item>easier than usual</item>
+        <item>normal</item>
+        <item>harder than usual</item>
+    </string-array>
+    <string-array name="motionize_parking_difficulty_numbers">
+        <item>2-5</item>
+        <item>5-8</item>
+        <item>8-12</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_dynamic_top_up_price_details" android:tag="layout-nodpi/item_parking_summary_dynamic_top_up_cost_details_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ll_dynamic_top_up_total_debited" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/element_parking_summary_prices" />
+    <include android:id="@id/ll_dynamic_top_up_saved_amount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/element_parking_summary_prices" />
+    <include android:id="@id/ll_dynamic_top_up_credit_used" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/element_parking_summary_prices" />
+</LinearLayout>

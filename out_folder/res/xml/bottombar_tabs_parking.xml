@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab enabled="false" id="@id/cancel" margin="35" title="" weight="1.0" />
+    <tab enabled="false" weight="4.0" />
+    <tab enabled="false" id="@id/spinning_hand" margin="15" title="" weight="1.0" />
+</tabs>

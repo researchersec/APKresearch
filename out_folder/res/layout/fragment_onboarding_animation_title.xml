@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_onboarding_animation_title_0" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/login_onboarding_animation_title_text_fontSize" android:textColor="@color/login_onboarding_animation_text_color" android:gravity="center" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_10dp" android:layout_marginRight="@dimen/offset_10dp" android:minLines="2" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/animation_view" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_element" android:tag="layout-nodpi/element_parking_summary_prices_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:layout_gravity="start" android:id="@id/tv_cost_element" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Receipt.Texts.Medium" />
+    <TextView android:layout_gravity="end|bottom|center" android:id="@id/tv_cost_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_16dp" style="@style/Receipt.Texts.Medium" />
+</LinearLayout>

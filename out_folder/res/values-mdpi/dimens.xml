@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_info_analog_clock_size">51.0dip</dimen>
+    <dimen name="bar_info_font_details">11.0sp</dimen>
+    <dimen name="bar_info_font_large">72.0sp</dimen>
+    <dimen name="bar_info_font_parking_credit">13.0sp</dimen>
+    <dimen name="bar_info_font_small">15.0sp</dimen>
+    <dimen name="bar_info_icon_offset">7.0dip</dimen>
+    <dimen name="bar_info_margin_top">15.0dip</dimen>
+    <dimen name="bar_info_padding_end">18.0dip</dimen>
+    <dimen name="bar_info_padding_start">20.0dip</dimen>
+    <dimen name="bar_info_padding_vertical">5.0dip</dimen>
+    <dimen name="com_appboy_card_background_border_bottom">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_left">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_right">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_top">1.0dip</dimen>
+    <dimen name="com_appboy_content_card_background_border_bottom">1.5dip</dimen>
+    <dimen name="com_appboy_content_card_background_border_left">1.5dip</dimen>
+    <dimen name="com_appboy_content_card_background_border_right">1.5dip</dimen>
+    <dimen name="com_appboy_content_card_background_border_top">1.0dip</dimen>
+    <dimen name="com_appboy_content_card_background_shadow_bottom">1.0dip</dimen>
+    <dimen name="fab_feedback_margin_top">4.0dip</dimen>
+    <dimen name="fab_margin_bottom">2.0dip</dimen>
+</resources>

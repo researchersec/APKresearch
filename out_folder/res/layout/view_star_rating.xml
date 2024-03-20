@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/star0" android:layout_width="@dimen/star_rating_view_image_size" android:layout_height="@dimen/star_rating_view_image_size" android:layout_marginRight="@dimen/star_rating_view_image_spacing" android:src="@drawable/ic_rating_star_gray" />
+    <ImageView android:id="@id/star1" android:layout_width="@dimen/star_rating_view_image_size" android:layout_height="@dimen/star_rating_view_image_size" android:layout_marginRight="@dimen/star_rating_view_image_spacing" android:src="@drawable/ic_rating_star_gray" />
+    <ImageView android:id="@id/star2" android:layout_width="@dimen/star_rating_view_image_size" android:layout_height="@dimen/star_rating_view_image_size" android:layout_marginRight="@dimen/star_rating_view_image_spacing" android:src="@drawable/ic_rating_star_gray" />
+    <ImageView android:id="@id/star3" android:layout_width="@dimen/star_rating_view_image_size" android:layout_height="@dimen/star_rating_view_image_size" android:layout_marginRight="@dimen/star_rating_view_image_spacing" android:src="@drawable/ic_rating_star_gray" />
+    <ImageView android:id="@id/star4" android:layout_width="@dimen/star_rating_view_image_size" android:layout_height="@dimen/star_rating_view_image_size" android:src="@drawable/ic_rating_star_gray" />
+</LinearLayout>

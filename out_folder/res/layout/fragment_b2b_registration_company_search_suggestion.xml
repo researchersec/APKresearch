@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:tag="layout/fragment_b2b_registration_company_search_suggestion_0" android:background="@drawable/b2b_bg_bottom_border_gray" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/B2B.Text.16" android:ellipsize="end" android:id="@id/ed_search_text" android:tag="binding_1" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/offset_20dp" android:paddingBottom="@dimen/offset_20dp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:paddingStart="@dimen/offset_8dp" android:paddingEnd="@dimen/offset_8dp" />
+</FrameLayout>

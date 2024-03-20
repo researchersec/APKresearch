@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/my_parkings_list_frame_layout" android:tag="layout/fragment_my_parkings_list_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/vs_header" android:layout="@layout/element_payment_method" android:inflatedId="@id/vw_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_16dp" android:layout_marginStart="@dimen/offset_8dp" android:layout_marginEnd="@dimen/offset_24dp" />
+    <include android:id="@id/permits_apply_link" layout="@layout/listitem_parkings_permits_apply" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/srl_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rw_parkings_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <TextView android:textSize="@dimen/fontSize_12sp" android:textColor="@color/ep_text_color_normal" android:layout_gravity="center" android:id="@id/tv_no_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</FrameLayout>

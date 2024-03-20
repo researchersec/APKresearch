@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/ep_text_color_hint" android:gravity="center" android:id="@id/or" android:tag="layout-nodpi/element_or_line_0" android:background="@drawable/bg_divider_vertical_or_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/or"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

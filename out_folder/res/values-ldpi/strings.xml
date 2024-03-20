@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_center_messages">Messages</string>
+    <string name="message_center_title">Message center</string>
+    <string name="message_item_action_text">Start here</string>
+    <string name="message_item_message">Message</string>
+</resources>

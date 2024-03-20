@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dialog_add_employee_success_0" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_default_min_width" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:padding="@dimen/offset_20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b2b_user_added_dialog_title" style="@style/B2B.Text.18.Bold" />
+    <TextView android:textColor="@color/b2b_subtitle_text_color" android:id="@id/tv_content_part_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offset_32dp" android:text="@string/b2b_user_added_dialog_content" android:lineSpacingExtra="@dimen/offset_6dp" android:textAlignment="center" android:layout_marginStart="@dimen/offset_32dp" android:layout_marginEnd="@dimen/offset_32dp" style="@style/B2B.Text.13" />
+    <View android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:textColor="@color/ep_pink" android:gravity="center" android:id="@id/ok_button" android:tag="binding_1" android:padding="@dimen/offset_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:text="@string/generic_ok" android:textAllCaps="true" style="@style/B2B.Text.17" />
+    <View android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:textColor="@color/ep_pink" android:gravity="center" android:id="@id/add_another_colleague" android:tag="binding_2" android:padding="@dimen/offset_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:text="@string/b2b_user_added_dialog_btn" style="@style/B2B.Text.17" />
+</LinearLayout>

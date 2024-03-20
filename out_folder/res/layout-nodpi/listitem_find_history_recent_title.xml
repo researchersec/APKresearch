@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:background="@color/ep_gray" android:paddingTop="@dimen/offset_16dp" android:paddingBottom="@dimen/offset_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_address_search_recent_title" android:paddingStart="@dimen/offset_16dp" android:paddingEnd="@dimen/offset_24dp" style="@style/Find.Text.Heading.Normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/container" android:tag="layout/fragment_business_registration_product_package_0" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <FrameLayout android:id="@id/top_bar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_alignParentTop="true" android:paddingStart="@dimen/offset_10dp" android:paddingEnd="@dimen/offset_15dp">
+            <ImageView android:layout_gravity="end|center" android:id="@id/close_button" android:tag="binding_1" android:background="?android:selectableItemBackgroundBorderless" android:padding="@dimen/offset_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" app:srcCompat="@drawable/ic_close_ps" app:tint="@color/text_primary" />
+        </FrameLayout>
+        <ProgressBar android:id="@id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" android:indeterminateTint="@color/ep_text_color_purple" android:indeterminateTintMode="src_atop" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list_of_suggestions" android:paddingTop="@dimen/offset_20dp" android:paddingBottom="@dimen/offset_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bar" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <Button android:id="@id/bt_continue" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_24dp" android:layout_marginTop="@dimen/offset_32dp" android:layout_marginRight="@dimen/offset_24dp" android:layout_marginBottom="@dimen/offset_48dp" android:layout_below="@id/list_of_suggestions" style="@style/B2B.ConfirmButton" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout-nodpi/item_payment_account_info_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/ll_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_account_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Payments.Texts.AccountType" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_account_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_20dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_card_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitStart" android:paddingEnd="@dimen/offset_8dp" />
+            <TextView android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_card_number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Payments.Accounts.AccountInfo.Text" />
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_corp_company_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Payments.Accounts.AccountInfo.SmallText" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/tv_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ll_item_container" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout-nodpi/element_payment_method_0" android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/sp_account" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/payments_selector_height" android:layout_marginBottom="@dimen/offset_8dp" android:layout_marginStart="@dimen/offset_24dp" android:layout_marginEnd="@dimen/offset_24dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_find_destination_out_of_bounds_info_0" android:background="@color/ep_white_background" android:padding="@dimen/offset_16dp" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/iv_close_icon" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Find.Text.Heading.Large" />
+    <TextView android:id="@id/tv_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_8dp" app:layout_constraintTop_toBottomOf="@id/tv_title" style="@style/Find.Text.VeryLarge" />
+    <TextView android:id="@id/tv_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_8dp" app:layout_constraintTop_toBottomOf="@id/tv_subtitle" style="@style/Find.Text.Normal" />
+    <Button android:id="@id/btn_view_route" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_16dp" app:layout_constraintTop_toBottomOf="@id/tv_text" style="@style/Find.Button" />
+    <ImageView android:id="@id/iv_close_icon" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ll_close_charcoal_to_sq30dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

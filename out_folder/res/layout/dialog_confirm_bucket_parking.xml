@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dialog_confirm_bucket_parking_0" android:background="@color/ep_white_background" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/tv_top_container" layout="@layout/element_bind_dialog_title_v2_pink" />
+    <TextView android:textSize="@dimen/fontSize_14sp" android:textColor="@color/ep_text_color_normal" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_16dp" android:layout_marginBottom="@dimen/offset_16dp" android:text="@string/parking_bucket_confirm_text" android:layout_marginStart="@dimen/offset_32dp" android:layout_marginEnd="@dimen/offset_32dp" />
+    <TextView android:textSize="@dimen/fontSize_14sp" android:textColor="@color/ep_text_color_normal" android:id="@id/tv_mobile_pay_warning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offset_16dp" android:text="@string/mobile_pay_alert_text" android:layout_marginStart="@dimen/offset_32dp" android:layout_marginEnd="@dimen/offset_32dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_taxable_times_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offset_16dp" android:layout_marginStart="@dimen/offset_32dp" android:layout_marginEnd="@dimen/offset_32dp">
+        <TextView android:textSize="@dimen/fontSize_14sp" android:textStyle="bold" android:textColor="@color/ep_text_color_normal" android:gravity="center_horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/parking_bucket_taxable_times_title" />
+        <TextView android:textSize="@dimen/fontSize_14sp" android:textColor="@color/ep_text_color_normal" android:id="@id/tv_taxable_times_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

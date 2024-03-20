@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_list_item_container" android:tag="layout-nodpi/listitem_parkings_loading_0" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListItem.History.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:paddingTop="@dimen/offset_4dp" android:paddingBottom="@dimen/offset_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</FrameLayout>

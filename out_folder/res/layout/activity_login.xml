@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_splash_container" android:tag="layout/activity_login_0" android:background="@color/ep_white_background" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:scrollbars="none" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_login_container" android:tag="binding_1" android:background="@color/ep_white_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="?navigation_bar_height">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_login" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/login_background_description" />
+        <View android:id="@id/sp_phone_number_whitespace" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <fragment android:name="net.easypark.android.mvp.login.EnterPhoneNumberFragment" android:layout_gravity="bottom" android:id="@id/fragment_enter_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <fragment android:name="net.easypark.android.mvp.login.EnterPasswordFragment" android:layout_gravity="bottom" android:id="@id/fragment_enter_password" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <fragment android:name="net.easypark.android.mvp.login.EnterSmsCodeFragment" android:id="@id/fragment_enter_code" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_input_offset_top" />
+        <include android:id="@id/fl_next" layout="@layout/element_next" />
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:id="@id/vw_navigation_bar_background" android:background="@color/navigation_bar_color" android:layout_width="fill_parent" android:layout_height="?navigation_bar_height" />
+</FrameLayout>

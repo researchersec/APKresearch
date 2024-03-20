@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="14.0dip" android:width="14.0dip" />
+            <solid android:color="@color/transparent" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_checkmark_pink" />
+</layer-list>

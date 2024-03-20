@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_unit_days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_unit_hours">
+        <item quantity="other">%d uren</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="time_unit_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="time_unit_months">
+        <item quantity="other">%d maanden</item>
+        <item quantity="one">%d maand</item>
+    </plurals>
+    <plurals name="time_unit_weeks">
+        <item quantity="other">%d weken</item>
+        <item quantity="one">%d week</item>
+    </plurals>
+    <plurals name="time_unit_years">
+        <item quantity="other">%d jaren</item>
+        <item quantity="one">%d jaar</item>
+    </plurals>
+</resources>

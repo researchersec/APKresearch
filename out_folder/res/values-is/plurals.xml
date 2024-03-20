@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nýjar tilkynningar</item>
+        <item quantity="one">%d ný tilkynning</item>
+    </plurals>
+    <plurals name="time_unit_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dagur</item>
+    </plurals>
+    <plurals name="time_unit_hours">
+        <item quantity="other">%d klukkutímar</item>
+        <item quantity="one">%d klukkutími</item>
+    </plurals>
+    <plurals name="time_unit_minutes">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="one">%d mínúta</item>
+    </plurals>
+    <plurals name="time_unit_months">
+        <item quantity="other">%d mánuðir</item>
+        <item quantity="one">%d mánuður</item>
+    </plurals>
+    <plurals name="time_unit_weeks">
+        <item quantity="other">%d vikur</item>
+        <item quantity="one">%d vika</item>
+    </plurals>
+    <plurals name="time_unit_years">
+        <item quantity="other">%d ár</item>
+        <item quantity="one">%d ár</item>
+    </plurals>
+</resources>

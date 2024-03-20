@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_area_info_barcelona" android:tag="layout-nodpi/item_parking_summary_area_info_spain_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/parking_summary_headline_gray" android:id="@id/tv_title_area_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/receipt_spain_head_line_area_info" style="@style/Receipt.Texts.Medium" />
+    <include android:id="@id/ll_price_per_hour" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/element_parking_summary_prices" />
+    <include android:id="@id/ll_max_parking_time" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/element_parking_summary_prices" />
+    <TextView android:id="@id/tv_time_table_description" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Receipt.Texts.Medium" />
+</LinearLayout>

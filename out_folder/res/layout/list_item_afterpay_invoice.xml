@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_item_container" android:tag="layout/list_item_afterpay_invoice_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/offset_24dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_period" android:tag="binding_1" android:paddingTop="@dimen/offset_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AfterpayUnpaidInvoices.Item.Title.Text" />
+    <TextView android:id="@id/tv_due_date" android:tag="binding_2" android:paddingBottom="@dimen/offset_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="false" app:layout_constraintTop_toBottomOf="@id/tv_period" style="@style/AfterpayUnpaidInvoices.Item.DueDate.Text" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sl_arrow_right_white" android:tint="@color/ep_text_color_light" android:layout_marginEnd="@dimen/offset_24dp" app:layout_constraintBottom_toBottomOf="@id/tv_due_date" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_period" />
+</androidx.constraintlayout.widget.ConstraintLayout>

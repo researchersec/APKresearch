@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Login.Fields.CountryCode" parent="@style/Core.Login.Fields.CountryCode">
+        <item name="android:textSize">@dimen/fontSize_14sp</item>
+    </style>
+    <style name="Login.Fields.Link" parent="@style/Core.Login.Fields.Link">
+        <item name="android:textSize">@dimen/fontSize_10sp</item>
+    </style>
+    <style name="Login.Fields.Password" parent="@style/Core.Login.Fields.Password">
+        <item name="android:textSize">@dimen/fontSize_14sp</item>
+    </style>
+    <style name="Login.Fields.PhoneNumber" parent="@style/Core.Login.Fields.PhoneNumber">
+        <item name="android:textSize">@dimen/fontSize_14sp</item>
+    </style>
+    <style name="Login.Texts.Title" parent="@style/Core.Login.Texts.Title">
+        <item name="android:textSize">@dimen/fontSize_14sp</item>
+    </style>
+    <style name="Login.Texts.Welcome" parent="@style/Core.Login.Texts.Welcome">
+        <item name="android:textSize">@dimen/fontSize_18sp</item>
+    </style>
+    <style name="Signup.Bullets.Texts" parent="@style/Core.Signup.Bullets.Texts">
+        <item name="android:textSize">@dimen/fontSize_16sp</item>
+    </style>
+    <style name="Signup.Texts" parent="@style/Core.Signup.Texts">
+        <item name="android:textSize">@dimen/fontSize_14sp</item>
+    </style>
+    <style name="Signup.Texts.Smaller" parent="@style/Core.Signup.Texts.Smaller">
+        <item name="android:textSize">@dimen/fontSize_10sp</item>
+    </style>
+    <style name="Signup.Titles" parent="@style/Core.Signup.Titles">
+        <item name="android:textSize">@dimen/fontSize_18sp</item>
+    </style>
+    <style name="Signup.Titles.Smaller" parent="@style/Core.Signup.Titles">
+        <item name="android:textSize">@dimen/fontSize_16sp</item>
+    </style>
+</resources>

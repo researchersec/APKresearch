@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scrollable_container" android:tag="layout/fragment_b2b_registration_request_contact_0" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:id="@id/spinner" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateTint="@color/ep_text_color_purple" android:indeterminateTintMode="src_atop" />
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/ll_content" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offset_32dp">
+            <FrameLayout android:id="@id/top_bar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:paddingStart="@dimen/offset_10dp" android:paddingEnd="@dimen/offset_15dp">
+                <ImageView android:layout_gravity="end|center" android:id="@id/close_button" android:tag="binding_3" android:background="?android:selectableItemBackgroundBorderless" android:padding="@dimen/offset_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" bind:srcCompat="@drawable/ic_close_ps" bind:tint="@color/text_primary" />
+            </FrameLayout>
+            <ImageView android:id="@id/iv_icon" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="@dimen/offset_50dp" android:scaleType="fitCenter" android:paddingStart="@dimen/offset_24dp" android:paddingEnd="@dimen/offset_24dp" />
+            <TextView android:id="@id/tv_title" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_24dp" android:layout_marginTop="@dimen/offset_32dp" android:layout_marginRight="@dimen/offset_24dp" style="@style/B2B.Text.21.bold" />
+            <TextView android:id="@id/tv_description" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_24dp" android:layout_marginTop="@dimen/offset_16dp" android:layout_marginRight="@dimen/offset_24dp" style="@style/B2B.Text" />
+            <include layout="@layout/fragment_b2b_registration_form_edit_text" />
+            <include layout="@layout/fragment_b2b_registration_form_edit_text" />
+            <include layout="@layout/fragment_b2b_registration_form_edit_text" />
+            <include layout="@layout/fragment_b2b_registration_form_edit_text" />
+            <include android:nextFocusDown="@id/bt_confirm" layout="@layout/fragment_b2b_registration_form_edit_text" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/frameLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_24dp" android:layout_marginTop="@dimen/offset_32dp" android:layout_marginRight="@dimen/offset_24dp">
+                <Button android:id="@id/bt_confirm" android:tag="binding_7" android:layout_width="0.0dip" android:layout_height="wrap_content" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" style="@style/B2B.ConfirmButton" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/confirm_button_spinner" android:tag="binding_8" android:layout_width="@dimen/offset_24dp" android:layout_height="@dimen/offset_24dp" android:indeterminate="true" android:indeterminateTint="@color/ep_text_color_purple" android:indeterminateTintMode="src_atop" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

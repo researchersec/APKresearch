@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_signup_payment" android:tag="layout/fragment_signup_topup_0" android:background="@color/ep_white_background" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/signup_activity_margin" android:paddingEnd="@dimen/signup_activity_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="right" android:id="@id/iv_close_icon" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ll_close_charcoal_to_sq30dp" android:translationX="@dimen/signup_activity_margin" />
+    <TextView android:id="@id/top_up_account_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/top_up_account" style="@style/Signup.Texts.Title.H1" />
+    <TextView android:id="@id/select_preferred_amount_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/select_preferred_amount" style="@style/Signup.Texts.Normal" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/ll_price_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Signup.Group.Container">
+        <RadioButton android:id="@id/tv_left_price" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1.0" style="@style/Signup.Group.Left" />
+        <RadioButton android:id="@id/tv_middle_price" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1.0" style="@style/Signup.Group.Middle" />
+        <RadioButton android:id="@id/tv_right_price" android:tag="binding_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@null" android:layout_weight="1.0" style="@style/Signup.Group.Right" />
+    </RadioGroup>
+    <RelativeLayout android:id="@id/topup_auto_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="left" android:id="@id/top_up_checkbox" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/top_up_checkbox_line1" style="@style/Signup.Texts.Title.H2" />
+        <TextView android:layout_gravity="center|right|top" android:id="@id/top_up_checkbox_line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/signup_topup_check_offset" android:text="@string/auto_top_up" style="@style/Signup.Texts.Title.H2" />
+        <TextView android:layout_gravity="bottom|center|right" android:id="@id/top_up_checkbox_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/signup_topup_check_offset" android:text="@string/with_selected_amount" android:layout_below="@id/top_up_checkbox_line1" style="@style/Signup.Texts.Normal" />
+    </RelativeLayout>
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:id="@id/fl_next" android:visibility="visible" layout="@layout/element_next" />
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_footer" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <TextView android:textColor="@color/ep_text_color_light" android:gravity="center_vertical" android:id="@id/tv_footer_text" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/iv_payment_method_logo" app:layout_constraintStart_toStartOf="parent" style="@style/Signup.Texts.Smaller" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_payment_method_logo" android:background="@color/ep_white_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offset_8dp" android:src="@drawable/ic_nets_logo" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tv_footer_text" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_root_container" android:tag="layout/fragment_my_cars_0" android:layout_width="wrap_content" android:layout_height="wrap_content" bind:layout_behavior="@string/bottom_sheet_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_dialog_content" android:tag="binding_1" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_sheet_height">
+        <include android:id="@id/fl_dialog_title" layout="@layout/element_my_cars_dialog_title" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_my_cars_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fl_dialog_title" bind:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </RelativeLayout>
+</FrameLayout>

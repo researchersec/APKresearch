@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dialog_confirm_stop_parking_0" android:background="@color/ep_white_background" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_parkings_stop_ongoing_parking" style="@style/DialogTitle" />
+    <TextView android:textSize="@dimen/fontSize_16sp" android:textColor="@color/ep_text_color_normal" android:gravity="center" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/my_parkings_confirm_stop_ongoing_parking_message" android:layout_marginStart="22.0dip" android:layout_marginEnd="22.0dip" />
+    <View android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+    <TextView android:id="@id/tv_confirm_stop_ongoing_parking" android:tag="binding_1" android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_parkings_confirm_stop_ongoing_parking_positive_button" style="@style/DialogButton" />
+    <TextView android:id="@id/tv_dismiss" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/generic_cancel" style="@style/DialogButton" />
+</LinearLayout>

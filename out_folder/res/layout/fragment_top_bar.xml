@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:theme="@style/EasyParkTheme.AppBarOverlay" android:id="@id/fragment_top_bar" android:tag="layout/fragment_top_bar_0" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?action_bar_height" android:minHeight="?action_bar_height" app:popupTheme="@style/EasyParkTheme.PopupOverlay">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_menu" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_hamburger" android:layout_marginEnd="@dimen/offset_8dp" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sl_logo_top_bar" />
+        </androidx.appcompat.widget.Toolbar>
+        <net.easypark.android.mvp.topbar.MyAutoCompleteTextView android:layout_gravity="center_vertical" android:id="@id/search" android:padding="4.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="40.0dip" android:hint="@string/search_address_hint" android:layout_marginStart="@dimen/offset_8dp" android:layout_marginEnd="@dimen/offset_8dp" style="@style/TopBar.Edit.Search" />
+        <AutoCompleteTextView android:layout_gravity="center_vertical" android:id="@id/area_code" android:padding="4.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="40.0dip" android:hint="@string/area_code_hint" android:drawablePadding="@dimen/offset_8dp" android:layout_marginStart="@dimen/offset_8dp" android:layout_marginEnd="@dimen/offset_8dp" style="@style/TopBar.Edit.AreaCode" />
+        <ProgressBar android:theme="@style/LinearProgress" android:layout_gravity="top" android:id="@id/pb_search" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </FrameLayout>
+</com.google.android.material.appbar.AppBarLayout>

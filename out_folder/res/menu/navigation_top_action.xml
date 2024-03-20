@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/sl_pen_top_bar_grey" android:enabled="true" android:id="@id/action_area_code" android:title="@string/empty" app:actionLayout="@layout/action_area_code" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/sl_magnifier_grey_sq24dp" android:enabled="true" android:id="@id/action_search" android:title="@string/empty" app:actionLayout="@layout/action_search_v2" app:showAsAction="always" />
+</menu>

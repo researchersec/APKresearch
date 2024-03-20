@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_info_margin_top">15.0dip</dimen>
+    <dimen name="bar_info_padding_end">10.0dip</dimen>
+    <dimen name="bar_info_padding_start">10.0dip</dimen>
+    <dimen name="bar_info_padding_vertical">0.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+</resources>
