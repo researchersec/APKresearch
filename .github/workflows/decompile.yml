@@ -33,8 +33,7 @@ jobs:
         run: ls /usr/local/bin/
 
       - name: Decompile APK files
-        run: apktool d net.easypark.android_12300_apps.evozi.com.apk -o out_folder --jar-path /usr/local/bin/apktool_2.5.0.jar
-
+        run: java -jar /usr/local/bin/apktool_2.5.0.jar d net.easypark.android_12300_apps.evozi.com.apk -o out_folder
 
       - name: Commit and push decompiled folders
         run: |
