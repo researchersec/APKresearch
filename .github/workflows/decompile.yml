@@ -1,0 +1,41 @@
+name: Extract and Decompile APK
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  extract_and_decompile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install unrar
+        run: sudo apt-get install unrar
+
+      - name: Extract RAR files
+        run: |
+          unrar x net.easypark.android_12300_apps.evozi.com.apk.part1.rar
+          unrar x net.easypark.android_12300_apps.evozi.com.apk.part2.rar
+
+      - name: Install APKTool
+        run: |
+          wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
+          wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.5.0.jar
+          chmod +x apktool
+          sudo mv apktool /usr/local/bin/
+          sudo mv apktool_2.5.0.jar /usr/local/bin/
+
+      - name: Decompile APK files
+        run: apktool d net.easypark.android_12300_apps.evozi.com.apk out_folder
+
+      - name: Commit and push decompiled folders
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add out_folder
+          git commit -m "Decompiled APK files"
+          git push
