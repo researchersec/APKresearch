@@ -1,4 +1,4 @@
-name: Extract and Decompile APK
+name: Extract and Analyze APK
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  extract_and_decompile:
+  extract_and_analyze:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,7 +19,7 @@ jobs:
       - name: Extract RAR files
         run: |
           unrar x net.easypark.android_12300_apps.evozi.com.apk.part1.rar
-          #unrar x net.easypark.android_12300_apps.evozi.com.apk.part2.rar
+          unrar x net.easypark.android_12300_apps.evozi.com.apk.part2.rar
 
       - name: Install APKTool
         run: |
@@ -28,17 +28,26 @@ jobs:
           chmod +x apktool
           sudo mv apktool /usr/local/bin/
           sudo mv apktool_2.5.0.jar /usr/local/bin/
-     
-      - name: Check contents of directory
-        run: ls /usr/local/bin/
 
       - name: Decompile APK files
         run: java -jar /usr/local/bin/apktool_2.5.0.jar d net.easypark.android_12300_apps.evozi.com.apk -o out_folder
 
-      - name: Commit and push decompiled folders
+      - name: Check for links, APIs, and keys
+        run: |
+          search_dir="out_folder"
+          result_file="found_items.txt"
+          grep -r -n -E '(https?://[^ ]+|API_KEY|SECRET_KEY|ACCESS_KEY)' "$search_dir" > "$result_file"
+          if [ ! -s "$result_file" ]; then
+              echo "No links, APIs, or keys found."
+          else
+              echo "Found items:"
+              cat "$result_file"
+          fi
+
+      - name: Commit and push analysis results
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add out_folder
-          git commit -m "Decompiled APK files"
+          git add "$result_file"
+          git commit -m "Added analysis results"
           git push
