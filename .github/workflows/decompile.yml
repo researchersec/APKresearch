@@ -18,8 +18,8 @@ jobs:
 
       - name: Extract RAR files
         run: |
-          unrar x net.easypark.android_12300_apps.evozi.com.apk.part1.rar
-          unrar x net.easypark.android_12300_apps.evozi.com.apk.part2.rar
+          unrar x -o+ net.easypark.android_12300_apps.evozi.com.apk.part1.rar
+          unrar x -o+ net.easypark.android_12300_apps.evozi.com.apk.part2.rar
 
       - name: Install APKTool
         run: |
