@@ -30,7 +30,7 @@ jobs:
           sudo mv apktool_2.5.0.jar /usr/local/bin/
 
       - name: Decompile APK files
-        run: java -jar /usr/local/bin/apktool_2.5.0.jar d net.easypark.android_12300_apps.evozi.com.apk -o out_folder
+        run: java -jar /usr/local/bin/apktool_2.5.0.jar d net.easypark.android_12300_apps.evozi.com.apk -f -o out_folder
 
       - name: Check for links, APIs, and keys
         run: |
