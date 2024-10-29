@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/ll_list_item_container" android:tag="layout-nodpi/listitem_place_suggestion_0" android:background="@drawable/bg_search_empty" android:paddingTop="@dimen/offset_4dp" android:paddingBottom="@dimen/offset_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:mode="twoLine" android:paddingStart="@dimen/offset_32dp" android:paddingEnd="@dimen/offset_16dp" style="?auto_suggest_container"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@android:id/text1" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AutoSuggest.Title" />
-    <TextView android:id="@android:id/text2" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AutoSuggest.SubTitle" />
-</LinearLayout>

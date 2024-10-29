@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="center" android:height="@dimen/ic_parking_area_camera_park_width" android:width="@dimen/ic_parking_area_camera_park_height" android:drawable="@drawable/ic_parking_area_camera_park" />
-</layer-list>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/mfv_header_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start" android:id="@id/bt_back" android:tag="binding_1" android:background="?android:selectableItemBackgroundBorderless" android:padding="@dimen/offset_6dp" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="@dimen/offset_24dp" android:layout_marginBottom="@dimen/offset_24dp" android:scaleType="fitCenter" android:layout_marginStart="@dimen/offset_10dp" />
-</FrameLayout>

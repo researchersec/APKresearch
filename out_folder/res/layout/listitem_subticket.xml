@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:tag="layout/listitem_subticket_0" android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/tv_subticket_list_item_name" android:padding="@dimen/offset_16dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.7" />
-    <TextView android:id="@id/tv_subticket_list_item_price" android:padding="@dimen/offset_16dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.3" />
-</LinearLayout>

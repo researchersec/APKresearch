@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/listitem_evc_plug_0" android:background="@color/ep_white_background" android:paddingTop="@dimen/offset_8dp" android:paddingBottom="@dimen/offset_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/offset_24dp" android:paddingEnd="@dimen/offset_16dp"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/tv_plug_name" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Evc.Name" />
-    <TextView android:id="@id/tv_plug_status" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_plug_name" style="@style/Evc.Status" />
-</androidx.constraintlayout.widget.ConstraintLayout>

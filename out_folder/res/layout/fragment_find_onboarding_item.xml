@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.airbnb.lottie.LottieAnimationView android:id="@id/animation_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/find_onboarding_dialog_page_animation_margin_top" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="false" app:lottie_loop="false" />
-    <TextView android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/find_onboarding_dialog_page_title_margin_top" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/animation_view" style="@style/Find.Onboarding.Dialog.Page.Title" />
-    <TextView android:id="@id/body_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/find_onboarding_dialog_page_text_margin_top" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/title_text" style="@style/Find.Onboarding.Dialog.Page.Text" />
-</androidx.constraintlayout.widget.ConstraintLayout>

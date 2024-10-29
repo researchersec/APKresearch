@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/fl_register_container" android:tag="layout/activity_register_0" android:background="@color/ep_white_background" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:scrollbars="none" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/fragment_placeholder" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="?navigation_bar_height" />
-    <View android:layout_gravity="top" android:id="@id/vw_status_bar_background" android:background="@drawable/bg_status_bar_gradient" android:layout_width="fill_parent" android:layout_height="?status_bar_height" />
-    <View android:layout_gravity="bottom" android:id="@id/vw_navigation_bar_background" android:background="@color/navigation_bar_color" android:layout_width="fill_parent" android:layout_height="?navigation_bar_height" />
-</FrameLayout>

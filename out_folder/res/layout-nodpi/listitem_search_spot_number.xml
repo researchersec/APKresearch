@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/fontSize_16sp" android:textColor="@color/ep_black" android:layout_gravity="center_vertical" android:id="@id/tv_spot_number_item" android:tag="layout-nodpi/listitem_search_spot_number_0" android:background="@drawable/bg_bottom_border" android:paddingTop="@dimen/offset_12dp" android:paddingBottom="@dimen/offset_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/offset_32dp" android:paddingEnd="@dimen/offset_16dp"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

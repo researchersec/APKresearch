@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/fr_next_button" android:tag="layout/mfv_next_button_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/iv_background" android:tag="binding_1" android:clickable="false" android:layout_width="@dimen/mfv_next_button_size" android:layout_height="@dimen/mfv_next_button_size" android:src="@drawable/bg_next_button_stateful" />
-    <ProgressBar android:layout_gravity="center" android:id="@id/pb_progress" android:tag="binding_2" android:clickable="false" android:layout_width="@dimen/mfv_next_button_size" android:layout_height="@dimen/mfv_next_button_size" android:indeterminate="true" android:indeterminateDrawable="@drawable/circular_progress_bar" android:progressDrawable="@drawable/circular_progress_bar" style="?android:progressBarStyleLarge" />
-</FrameLayout>

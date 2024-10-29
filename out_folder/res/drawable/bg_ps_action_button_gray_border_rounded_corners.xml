@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/ep_white" />
-    <stroke android:width="1.0dip" android:color="@color/parking_summary_bg_border_action_button_gray" />
-    <padding android:left="@dimen/offset_12dp" android:top="@dimen/offset_12dp" android:right="@dimen/offset_12dp" android:bottom="@dimen/offset_12dp" />
-    <corners android:radius="@dimen/bg_action_button_radius" />
-</shape>

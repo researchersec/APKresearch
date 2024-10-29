@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent" style="?bottom_bar_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="bottom" android:id="@id/bottom_bar_item_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" style="?bottom_bar_item_icons" />
-    <TextView android:ellipsize="marquee" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/bottom_bar_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_bar_label_bottom_offset" android:singleLine="true" style="?bottom_bar_item_label" />
-</merge>

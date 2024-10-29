@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageButton android:id="@id/ib_payment_method" android:tag="layout-nodpi/listitem_payment_button_0" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_marginBottom="8.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

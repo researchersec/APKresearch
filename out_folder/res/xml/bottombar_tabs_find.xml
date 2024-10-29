@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<tabs
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <tab android:icon="@drawable/sl_tabs_car_h24dp" id="@id/my_car" title="@string/home_tab_car_number" weight="2.5" />
-    <tab enabled="false" weight="2.0" />
-    <tab android:icon="@drawable/sl_tabs_find_h24dp" id="@id/find_bottom_tab" title="@string/home_tab_find_parking" weight="1.0" />
-    <tab android:icon="@drawable/sl_tabs_menu_sq24dp" id="@id/more_options" title="@string/home_tab_more" weight="1.0" />
-</tabs>

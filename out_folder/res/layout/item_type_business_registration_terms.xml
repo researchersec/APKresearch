@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container" android:tag="layout/item_type_business_registration_terms_0" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_11dp" android:layout_marginStart="@dimen/offset_24dp" android:layout_marginEnd="@dimen/offset_24dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBox android:layout_gravity="center_vertical" android:id="@id/checkBox" android:tag="binding_1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/sl_checkmark_square_b2b" android:paddingStart="@dimen/offset_12dp" android:paddingEnd="@dimen/offset_0dp" />
-    <TextView android:layout_gravity="center_vertical" android:id="@id/termsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0sp" style="@style/B2B.Text.13" />
-</LinearLayout>

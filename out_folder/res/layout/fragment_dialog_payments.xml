@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:tag="layout/fragment_dialog_payments_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/fl_dialog_title" layout="@layout/element_bind_dialog_title_v2" />
-    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_payment_items" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" bind:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-    <FrameLayout android:id="@id/fl_add_button_container" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/Payments.AccountPromo.Container">
-        <TextView android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/tv_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/offset_8dp" android:drawableStart="@drawable/ll_plus_to_16dp" android:paddingStart="@dimen/offset_8dp" android:paddingEnd="@dimen/offset_24dp" style="@style/Payments.AccountPromo.Text" />
-    </FrameLayout>
-</LinearLayout>

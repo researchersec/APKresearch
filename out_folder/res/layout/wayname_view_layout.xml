@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:paddingBottom="@dimen/wayname_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textStyle="bold" android:textColor="?navigationViewAccent" android:ellipsize="end" android:gravity="center" android:id="@id/waynameText" android:background="@drawable/wayname_text_background" android:paddingLeft="@dimen/wayname_padding" android:paddingRight="@dimen/wayname_padding" android:paddingBottom="@dimen/wayname_padding_bottom" android:layout_width="wrap_content" android:layout_height="@dimen/wayname_view_height" android:maxWidth="@dimen/wayname_max_width" android:maxLines="1" />
-</FrameLayout>

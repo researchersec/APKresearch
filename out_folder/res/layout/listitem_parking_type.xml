@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:gravity="center" android:id="@id/tv_parking_type" android:tag="layout/listitem_parking_type_0" android:background="@drawable/bg_bottom_border" android:padding="@dimen/offset_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offset_16dp" android:maxHeight="56.0dip" style="@style/Receipt.Texts.Bold"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

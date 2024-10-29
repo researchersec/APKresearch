@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:tag="layout/activity_splash_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:theme="@style/LinearProgress" android:id="@id/pb_splash" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_progress_offset_lr" android:layout_marginRight="@dimen/login_progress_offset_lr" android:layout_marginBottom="@dimen/splash_progress_offset_b" android:indeterminate="true" style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
-    <TextView android:textSize="@dimen/fontSize_10sp" android:id="@id/tv_app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/splash_version_offset_b" android:fontFamily="sans-serif-light" />
-    <View android:layout_gravity="bottom" android:id="@id/vw_navigation_bar_background" android:background="@color/navigation_bar_color" android:layout_width="fill_parent" android:layout_height="?navigation_bar_height" />
-</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/fl_dialog_root" android:tag="layout/activity_flag_picker_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fragment android:name="net.easypark.android.mvp.flags.FlagPickerFragment" android:id="@id/fragment_flag_picker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="false" android:drawable="@color/ep_gray_disabled_button_darker" />
-    <item android:drawable="@color/ep_pink_active_button" />
-</selector>

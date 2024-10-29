@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:tag="layout-nodpi/dialog_price_details_general_0" android:background="@color/ep_white_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_default_min_width" android:animateLayoutChanges="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/dialog_header" layout="@layout/element_bind_dialog_title_v2_pink" />
-    <net.easypark.android.mvp.bottombar.information.pricedetails.generic.impl.PriceDetailsDataView android:id="@id/prices" android:tag="binding_1" android:paddingLeft="@dimen/offset_24dp" android:paddingTop="@dimen/offset_24dp" android:paddingRight="@dimen/offset_24dp" android:paddingBottom="@dimen/offset_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <View android:id="@id/line_divider" android:background="@drawable/bg_bottom_border" android:layout_width="fill_parent" android:layout_height="@dimen/offset_4dp" />
-    <TextView android:gravity="center" android:id="@id/tv_ok" android:tag="binding_2" android:padding="@dimen/offset_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Payments.Texts.Title.Action" />
-</LinearLayout>

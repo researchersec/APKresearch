@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_message_center_container" android:tag="layout/activity_message_center_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/fragmentRoot" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

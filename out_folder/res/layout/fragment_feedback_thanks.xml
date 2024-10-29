@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_thanks" android:tag="layout/fragment_feedback_thanks_0" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/fontSize_20sp" android:textColor="@color/ep_text_color_normal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/general_feedback_thank_you" android:fontFamily="sans-serif-medium" />
-    <TextView android:textSize="@dimen/fontSize_16sp" android:textColor="@color/ep_text_color_normal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_24dp" android:layout_marginBottom="@dimen/offset_24dp" android:text="@string/general_feedback_thank_description" android:fontFamily="sans-serif-light" style="@style/ListItem.Address.Line" />
-    <Button android:id="@id/bt_go_back" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offset_32dp" android:text="@string/general_feedback_thank_back" style="@style/Signup.Buttons" />
-</LinearLayout>

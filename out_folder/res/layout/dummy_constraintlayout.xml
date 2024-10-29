@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingTop="@dimen/bar_info_padding_vertical" android:paddingBottom="@dimen/bar_info_padding_vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bar_info_padding_start" android:paddingEnd="@dimen/bar_info_padding_end"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/view_bottom_bar_info_v2" />
-</androidx.constraintlayout.widget.ConstraintLayout>

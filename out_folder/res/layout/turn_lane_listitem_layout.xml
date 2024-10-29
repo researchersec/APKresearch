@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.mapbox.services.android.navigation.ui.v5.instruction.turnlane.TurnLaneView android:id="@id/turnLaneView" android:layout_width="24.0dip" android:layout_height="24.0dip" />
-</RelativeLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/activity_help_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/default_spinner_size" android:layout_height="@dimen/default_spinner_size" android:indeterminate="true" />
-</FrameLayout>

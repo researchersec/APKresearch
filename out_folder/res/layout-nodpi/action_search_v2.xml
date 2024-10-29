@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/sl_magnifier_grey_sq24dp" android:contentDescription="@string/empty" android:paddingStart="@dimen/topbar_area_code_offset" android:paddingEnd="@dimen/topbar_search_offset" android:layout_marginStart="@dimen/topbar_area_code_offset_reverse" android:layout_marginEnd="@dimen/topbar_search_offset_reverse"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

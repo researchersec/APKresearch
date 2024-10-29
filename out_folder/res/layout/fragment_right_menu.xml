@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="end" android:orientation="vertical" android:tag="layout/fragment_right_menu_0" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.RightMenu"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/nav_right_drawer" android:paddingTop="@dimen/offset_50dp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-    <LinearLayout android:gravity="center" android:layout_gravity="end" android:orientation="vertical" android:id="@id/ll_close" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="@dimen/bottom_bar_panel_height" android:layout_height="@dimen/bottom_bar_panel_height">
-        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/iv_close_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/sl_close_charcoal_sq24dp" style="?bottom_bar_item_icons_inverse" />
-    </LinearLayout>
-</LinearLayout>

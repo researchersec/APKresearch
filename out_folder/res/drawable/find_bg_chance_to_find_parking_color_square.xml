@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/ep_find_yellow" />
-    <corners android:topLeftRadius="@dimen/find_navigation_color_square_corners_radius" android:topRightRadius="@dimen/find_navigation_color_square_corners_radius" android:bottomLeftRadius="@dimen/find_navigation_color_square_corners_radius" android:bottomRightRadius="@dimen/find_navigation_color_square_corners_radius" />
-</shape>

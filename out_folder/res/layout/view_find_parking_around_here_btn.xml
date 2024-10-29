@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/find_bg_recenter_button" android:layout_width="wrap_content" android:layout_height="@dimen/find_recenter_button_height" android:layout_margin="@dimen/find_recenter_button_margin" android:elevation="@dimen/find_recenter_button_elevation">
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/find_parking_around_here" android:layout_marginStart="12.0dip" android:layout_marginEnd="@dimen/find_recenter_button_margin_right" app:srcCompat="@drawable/ic_find_locate_user" />
-        <TextView android:textSize="@dimen/find_recenter_button_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_parking_around_here" android:layout_marginEnd="12.0dip" />
-    </LinearLayout>
-</merge>

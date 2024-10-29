@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:id="@id/tv_address_item" android:tag="layout-nodpi/listitem_find_history_recent_item_0" android:padding="@dimen/offset_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Find.Text.Normal"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

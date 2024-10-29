@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/topbar_area_code_font_size" android:textColor="@color/ep_gray_icon" android:ellipsize="none" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/topbar_area_code_max_texts_width_v2" android:minWidth="@dimen/topbar_area_code_max_texts_width_v2" android:text="@string/action_key_in_area_code" android:maxLines="2" android:scrollHorizontally="false" android:drawableLeft="@drawable/sl_pen_top_bar_grey" android:drawablePadding="4.0dip" android:paddingEnd="@dimen/topbar_area_code_padding_right"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

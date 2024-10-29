@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/sheetShadow" android:background="@drawable/gradient_shadow_up" android:layout_width="wrap_content" android:layout_height="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <include android:id="@id/summaryPeekLayout" android:layout_width="fill_parent" android:layout_height="@dimen/summary_bottomsheet_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sheetShadow" layout="@layout/summary_peek_layout" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="true" android:color="@color/ep_pink_active_button" />
-    <item android:state_enabled="false" android:color="@color/ep_gray_disabled_button_darker" />
-    <item android:state_pressed="true" android:color="@color/ep_pink_pressed_button" />
-</selector>

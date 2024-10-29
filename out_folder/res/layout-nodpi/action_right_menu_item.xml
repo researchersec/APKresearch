@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/offset_50dp" android:paddingStart="@dimen/offset_24dp" android:paddingEnd="@dimen/offset_24dp"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/item_fl" android:clipToPadding="false" android:layout_width="@dimen/offset_32dp" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="center" android:id="@id/item_icon" android:layout_width="@dimen/offset_28dp" android:layout_height="@dimen/offset_28dp" app:tint="@color/ep_white" />
-        <TextView android:textSize="@dimen/fontSize_9sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/badge" android:background="@drawable/badge_background" android:visibility="gone" android:layout_width="@dimen/offset_16dp" android:layout_height="@dimen/offset_16dp" android:layout_marginBottom="@dimen/offset_18dp" android:layout_marginStart="@dimen/offset_16dp" />
-    </FrameLayout>
-    <TextView android:layout_gravity="center_vertical" android:id="@id/item_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="false" android:layout_marginStart="@dimen/offset_12dp" style="?right_menu_item_label" />
-</LinearLayout>
