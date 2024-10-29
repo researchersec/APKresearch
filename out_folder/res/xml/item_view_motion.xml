@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition app:constraintSetEnd="@layout/item_view_end" app:constraintSetStart="@layout/item_view_view" app:duration="500">
+        <OnSwipe app:dragDirection="dragUp" app:onTouchUp="stop" app:touchAnchorId="@id/itemViewScrollView" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="1.0" app:framePosition="0" app:motionTarget="@id/cvTags" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="40" app:motionTarget="@id/cvTags" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="40" app:motionTarget="@id/ivStoreLogo" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="80" app:motionTarget="@id/ivStoreLogo" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="40" app:motionTarget="@id/storeName" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="80" app:motionTarget="@id/storeName" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="80" app:motionTarget="@id/topNamesLayout" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="100" app:motionTarget="@id/topNamesLayout" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="0" app:motionTarget="@id/favoriteTooltipContainer" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="40" app:motionTarget="@id/favoriteTooltipContainer" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

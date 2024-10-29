@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/APKTOOL_DUMMY_63d" android:background="@color/neutral_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view" android:background="@color/neutral_30" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/item_view_sold_state_card_background" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@id/view" android:contentDescription="@null" android:importantForAccessibility="noHideDescendants">
+        <TextView android:id="@id/nextSaleStartTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/item_view_sold_out_state_next_sale_unknown" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Body1_Black" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clSoldOutFavView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/view1" android:background="@color/neutral_30" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:id="@id/soldOutFavMessage" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/item_view_sold_out_state_fav_message" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/ibSoldOutFavorite" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view1" style="@style/Heading5_Green" />
+            <com.app.tgtg.customview.FavoriteIconView android:id="@id/ibSoldOutFavorite" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/soldOutFavMessage" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/soldOutFavMessage" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</RelativeLayout>

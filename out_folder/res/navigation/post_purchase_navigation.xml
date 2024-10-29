@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/rating_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="PurchaseSuccessFragment" android:name="com.app.tgtg.activities.postpurchase.success.purchase.PurchaseSuccessFragment" android:id="@id/purchaseSuccessFragment" />
+    <fragment android:label="DonationSuccessFragment" android:name="com.app.tgtg.activities.postpurchase.success.donation.DonationSuccessFragment" android:id="@id/donationSuccessFragment" />
+    <fragment android:label="NotificationExplanationFragment" android:name="com.app.tgtg.activities.postpurchase.notification.NotificationExplanationFragment" android:id="@id/notificationExplanationFragment" />
+    <fragment android:label="EmailExplanationFragment" android:name="com.app.tgtg.activities.postpurchase.emailexplanation.EmailExplanationFragment" android:id="@id/emailExplanationFragment" />
+    <fragment android:label="EmailPromptFragment" android:name="com.app.tgtg.activities.postpurchase.email.EmailPromptFragment" android:id="@id/emailPromptFragment" />
+    <fragment android:label="addEmailFragment" android:name="com.app.tgtg.activities.postpurchase.email.AddEmailFragment" android:id="@id/addEmailFragment" />
+    <fragment android:label="PhoneExplanationFragment" android:name="com.app.tgtg.activities.postpurchase.phoneexplanation.PhoneExplanationFragment" android:id="@id/phoneExplanationFragment" />
+    <fragment android:label="PhonePromptFragment" android:name="com.app.tgtg.activities.postpurchase.phone.PhonePromptFragment" android:id="@id/phonePromptFragment" />
+    <fragment android:label="AddPhoneNumberFragment" android:name="com.app.tgtg.activities.postpurchase.phone.AddPhoneNumberFragment" android:id="@id/addPhoneNumberFragment" />
+    <fragment android:label="AddReminderFragment" android:name="com.app.tgtg.activities.postpurchase.notification.AddReminderFragment" android:id="@id/addReminderFragment" />
+    <action android:id="@id/toPurchaseSuccessFragment" app:destination="@id/purchaseSuccessFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left">
+        <argument android:name="SHARING_URL" android:defaultValue="@null" app:argType="string" />
+    </action>
+    <action android:id="@id/toDonationSuccessFragment" app:destination="@id/donationSuccessFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toNotificationExplanationFragment" app:destination="@id/notificationExplanationFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toEmailExplanationFragment" app:destination="@id/emailExplanationFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toEmailPromptFragment" app:destination="@id/emailPromptFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toAddEmailFragment" app:destination="@id/addEmailFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toPhoneExplanationFragment" app:destination="@id/phoneExplanationFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toPhonePromptFragment" app:destination="@id/phonePromptFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toAddPhoneNumberFragment" app:destination="@id/addPhoneNumberFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+    <action android:id="@id/toAddReminderFragment" app:destination="@id/addReminderFragment" app:enterAnim="@anim/slide_in_from_right_to_left" app:exitAnim="@anim/slide_out_from_right_to_left" />
+</navigation>

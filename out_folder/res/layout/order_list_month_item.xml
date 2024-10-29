@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/parent" android:tag="layout/order_list_month_item_0" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="start" android:id="@id/tvMonth" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/tvMagicBagsSaved" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Heading5_Black" />
+    <TextView android:id="@id/tvMagicBagsSaved" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Body2_Bold_Black" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvMonthlyOrders" android:paddingTop="6.0dip" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvMonth" />
+</androidx.constraintlayout.widget.ConstraintLayout>

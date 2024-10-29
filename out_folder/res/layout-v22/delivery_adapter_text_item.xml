@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/emptyItemLayout" android:tag="layout/delivery_adapter_text_item_0" android:paddingLeft="16.0dip" android:paddingTop="96.0dip" android:paddingRight="16.0dip" android:paddingBottom="96.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/itemTextTitleTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mnu_more_parcels_coming" style="@style/Heading2_Green" />
+    <TextView android:gravity="center" android:id="@id/itemTextBodyTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/mnu_list_no_items_body" style="@style/Body1_Black" />
+</LinearLayout>

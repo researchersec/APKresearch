@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds android:duration="300">
+        <targets>
+            <target android:targetId="@id/image" />
+            <target android:targetId="@id/titleTv" />
+            <target android:targetId="@id/subTitleTv" />
+            <target android:targetId="@id/tvHashTag" />
+            <target android:targetId="@id/sharingLayout" />
+        </targets>
+    </changeBounds>
+    <transitionSet>
+        <slide android:duration="300" android:slideEdge="bottom">
+            <targets>
+                <target android:targetId="@id/cardLayout" />
+            </targets>
+        </slide>
+    </transitionSet>
+</transitionSet>

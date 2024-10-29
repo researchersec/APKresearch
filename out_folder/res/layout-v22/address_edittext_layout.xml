@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/address_edittext_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/etLabelTv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2_Black" />
+    <com.app.tgtg.customview.NoChangingBackgroundTextInputLayout android:id="@id/etTextInputLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:endIconTint="@color/neutral_60" app:errorEnabled="true" app:errorTextAppearance="@style/Body2_Red" app:hintEnabled="false">
+        <com.google.android.material.textfield.TextInputEditText android:textColorHint="@color/neutral_60" android:id="@id/etTextInputEditText" android:background="@drawable/checkout_address_background" android:paddingLeft="12.0dip" android:paddingTop="14.0dip" android:paddingRight="12.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="textCapSentences" android:imeOptions="actionNext" android:paddingHorizontal="12.0dip" android:paddingVertical="14.0dip" style="@style/Body1_Black" />
+        <TextView android:id="@id/helperTv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/Body2_Neutral60" />
+    </com.app.tgtg.customview.NoChangingBackgroundTextInputLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/discover_search_max_distance_view_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_16" android:layout_marginStart="@dimen/spacing_16" android:layout_marginEnd="@dimen/spacing_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/dotted_horizontal_line" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layerType="software" app:layout_constraintBottom_toBottomOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/title" />
+    <TextView android:id="@id/title" android:background="@color/beige_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_16" android:text="@string/discover_search_max_distance_suggestions_km" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Heading4_Black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/demographic_icon" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/demographics_popup_complete_your_profile" android:layout_marginHorizontal="20.0dip" style="@style/Heading2_Black" />
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" android:text="@string/demographics_popup_message" android:layout_marginHorizontal="20.0dip" style="@style/Body1_Black" />
+    <Button android:id="@id/complete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/demographics_popup_complete_now" style="@style/button_primary_main_bg" />
+    <TextView android:gravity="center" android:id="@id/later" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="40.0dip" android:text="@string/demographics_popup_maybe_later" android:layout_marginHorizontal="20.0dip" android:paddingVertical="8.0dip" style="@style/Anchor_Gray" />
+</LinearLayout>

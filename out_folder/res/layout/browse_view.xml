@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/browseRoot" android:paddingBottom="@dimen/spacing_6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/browseListViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/transparentView" android:background="@color/beige_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/fakeView" android:layout_alignParentTop="true" android:alpha="0.8" />
+    <View android:id="@id/bottomBorderView" android:background="@color/neutral_30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/fakeView" android:layout_alignBottom="@id/transparentView" />
+    <com.app.tgtg.customview.SearchAndFilterView android:id="@id/searchAndFilterView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_8" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4" android:layout_below="@id/searchAndFilterView" android:layout_marginStart="@dimen/spacing_2" android:layout_marginEnd="@dimen/spacing_2" app:tabIndicatorColor="@color/neutral_20" app:tabIndicatorHeight="0.0dip" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" app:tabPaddingTop="0.0dip" app:tabRippleColor="@null" />
+    <View android:id="@id/fakeView" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/spacing_4" android:layout_below="@id/tabLayout" />
+    <include android:gravity="center" android:id="@id/sortByView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fakeView" android:layout_marginStart="14.0dip" android:layout_alignParentStart="true" layout="@layout/browse_sort_by_view" />
+</RelativeLayout>

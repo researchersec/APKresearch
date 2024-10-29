@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/userFeedbackCoordinator" android:tag="layout/user_feedback_bottom_sheet_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/userFeedbackBottomSheet" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" app:shapeAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_16" app:cardCornerRadius="16.0dip" app:cardElevation="20.0dip">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/feedback_bottom_sheet" android:padding="@dimen/spacing_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/feedbackContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center_horizontal" android:id="@id/feedbackTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_8" style="@style/Heading2_Black" />
+                    <TextView android:gravity="center_horizontal" android:id="@id/feedbackSubTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_8" style="@style/Heading3_Black" />
+                    <TextView android:gravity="center_horizontal" android:id="@id/feedbackDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_16" style="@style/Body1_Black" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/buttonsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_8">
+                        <com.app.tgtg.customview.UserFeedbackButton android:id="@id/sadButton" android:tag="binding_1" android:layout_width="@dimen/spacing_0" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/spacing_16" android:layout_height="fill_parent" />
+                        <com.app.tgtg.customview.UserFeedbackButton android:id="@id/neutralButton" android:tag="binding_2" android:layout_width="@dimen/spacing_0" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/spacing_16" android:layout_height="fill_parent" />
+                        <com.app.tgtg.customview.UserFeedbackButton android:id="@id/APKTOOL_DUMMY_386" android:tag="binding_3" android:layout_width="@dimen/spacing_0" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/reviewContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="start" android:id="@id/reviewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_8" style="@style/Heading3_Black" />
+                    <com.app.tgtg.customview.ActionEditText android:gravity="top" android:id="@id/reviewEdit" android:background="@drawable/input_field_focus_states" android:padding="@dimen/spacing_16" android:layout_width="fill_parent" android:layout_height="@dimen/input_layout_height" android:layout_marginBottom="@dimen/spacing_8" android:hint="\#review edit hint text..." android:maxLines="3" android:inputType="textCapSentences|textMultiLine" style="@style/Body1_Black" />
+                    <Button android:id="@id/feedbackButton" android:textAllCaps="false" style="@style/button_primary_main_bg" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/responseContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:paddingBottom="@dimen/spacing_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_user_feedback_response" />
+                    <TextView android:id="@id/responseTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_8" style="@style/Heading2_Black" />
+                    <TextView android:gravity="center_horizontal" android:id="@id/responseDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_8" style="@style/Body1_Black" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

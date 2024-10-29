@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bucketLayout" android:tag="layout/delivery_adapter_item_duo_0" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/APKTOOL_DUMMY_361" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="0.0dip" app:layout_constraintEnd_toStartOf="@id/APKTOOL_DUMMY_362" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/mnu_gallery_item" />
+    <include android:id="@id/APKTOOL_DUMMY_362" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/APKTOOL_DUMMY_361" app:layout_constraintTop_toTopOf="parent" layout="@layout/mnu_gallery_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

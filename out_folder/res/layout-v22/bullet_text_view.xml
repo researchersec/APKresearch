@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/APKTOOL_DUMMY_640" android:tag="layout/bullet_text_view_0" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tvBulletPoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" android:layout_marginEnd="8.0dip" style="@style/Body2_Bold_Black" />
+    <TextView android:id="@id/tvTitle" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/tvBulletPoint" style="@style/Body2_Black" />
+    <TextView android:id="@id/tvBody" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/tvTitle" style="@style/Body2_Black" />
+</RelativeLayout>

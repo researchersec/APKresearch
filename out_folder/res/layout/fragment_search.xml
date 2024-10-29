@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/mainPanel" android:paddingTop="@dimen/spacing_8" android:paddingBottom="@dimen/bottom_nav_view_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/topBar" android:paddingBottom="@dimen/spacing_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_20" android:paddingEnd="@dimen/spacing_20">
+            <TextView android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/browse_list_sort_by_label" android:paddingEnd="@dimen/spacing_8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Body1_Black" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sortBox" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/tvTitle" app:layout_constraintStart_toEndOf="@id/tvTitle" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:id="@id/tvSortType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/browse_list_sort_by_nearby" android:paddingEnd="@dimen/spacing_4" style="@style/Button_M_Green" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/system_icon_chevron_down_primary_30" android:contentDescription="@null" android:layout_marginEnd="@dimen/spacing_16" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvListItems" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/topBar" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <com.app.tgtg.customview.GenericErrorView android:layout_gravity="center" android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

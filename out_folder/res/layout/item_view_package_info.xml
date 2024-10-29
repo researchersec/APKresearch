@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/infoRootView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view" android:background="@color/neutral_30" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:text="@string/item_view_packing_info_title" android:layout_below="@id/view" android:layout_marginStart="16.0dip" style="@style/Heading5_Black" />
+    <TextView android:id="@id/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" android:layout_below="@id/title" android:layout_marginStart="16.0dip" style="@style/Body1_Black" />
+    <TextView android:id="@id/packagingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/item_view_directions_packaging_must_bring_bag" android:layout_below="@id/title" android:paddingStart="8.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/dot" style="@style/Body1_Black" />
+</RelativeLayout>

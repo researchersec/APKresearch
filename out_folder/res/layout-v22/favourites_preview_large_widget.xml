@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppTheme.Launcher.AppWidgetContainer" android:id="@id/preview_small_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:theme="@style/AppTheme.Launcher.AppWidgetColors" android:orientation="horizontal" android:id="@id/preview_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="12.0dip">
+        <ImageView android:id="@id/small_widget_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gfx_widget_tgtg_logo" android:contentDescription="@string/app_name" />
+        <TextView android:id="@id/small_widget_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fav_widget_title" android:layout_marginStart="8.0dip" style="@style/Widget.header1_green" />
+    </LinearLayout>
+    <LinearLayout android:theme="@style/AppTheme.Launcher.AppWidgetColors" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/preview_header">
+        <include android:layout_width="fill_parent" android:layout_height="104.0dip" android:layout_marginStart="-4.0dip" layout="@layout/favourite_large_widget_preview_item_view" />
+        <include android:layout_width="fill_parent" android:layout_height="104.0dip" android:layout_marginStart="-4.0dip" layout="@layout/favourite_large_widget_preview_item_view" />
+        <include android:layout_width="fill_parent" android:layout_height="104.0dip" android:layout_marginStart="-4.0dip" layout="@layout/favourite_large_widget_preview_item_view" />
+    </LinearLayout>
+</RelativeLayout>

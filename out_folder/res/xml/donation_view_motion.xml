@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition app:constraintSetEnd="@layout/donation_view_end" app:constraintSetStart="@layout/donation_view" app:duration="500">
+        <OnSwipe app:dragDirection="dragUp" app:onTouchUp="stop" app:touchAnchorId="@id/content" app:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" app:framePosition="50" app:motionTarget="@id/titleEnd" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="100" app:motionTarget="@id/titleEnd" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="0" app:motionTarget="@id/title" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="50" app:motionTarget="@id/title" />
+            <KeyAttribute android:alpha="1.0" app:framePosition="0" app:motionTarget="@id/logos" />
+            <KeyAttribute android:alpha="0.0" app:framePosition="40" app:motionTarget="@id/logos" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/panicBanner" android:background="@color/red_40" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/panicIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/system_icon_warning" />
+    <TextView android:id="@id/panicMessage" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/panicClose" app:layout_constraintStart_toEndOf="@id/panicIcon" app:layout_constraintTop_toTopOf="parent" style="@style/Body1_Bold_White" />
+    <ImageView android:id="@id/panicClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/system_icons_close_neutral_10_small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

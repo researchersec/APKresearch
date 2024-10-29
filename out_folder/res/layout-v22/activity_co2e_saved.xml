@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/beige_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/toolbar_beige_with_action" />
+    <ScrollView android:id="@id/cvCo2eSavedContent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottomNav" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="start" android:id="@id/tvSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="6.0dip" android:text="@string/co2e_saved_sub_title" android:contentDescription="@string/voice_over_co2e_saved_sub_title" android:layout_marginHorizontal="16.0dip" style="@style/Body1" />
+            <include android:id="@id/savedElectricity" layout="@layout/co2e_saved_content_item" />
+            <include android:id="@id/savedPhoneCharges" layout="@layout/co2e_saved_content_item" />
+            <include android:id="@id/savedHotCoffee" layout="@layout/co2e_saved_content_item" />
+            <include android:id="@id/savedHotShowering" layout="@layout/co2e_saved_content_item" />
+        </LinearLayout>
+    </ScrollView>
+    <com.app.tgtg.customview.GenericErrorView android:layout_gravity="center" android:id="@id/errorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/bottomNav" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <include android:id="@id/bottomNav" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/impact_bottom_nav" />
+</androidx.constraintlayout.widget.ConstraintLayout>

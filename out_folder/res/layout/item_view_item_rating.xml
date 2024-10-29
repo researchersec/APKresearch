@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/neutral_10" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view" android:background="@color/neutral_30" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:id="@id/moduleTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/item_view_item_badge_title" android:layout_below="@id/view" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/Heading5_Black" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llRatingExplainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_below="@id/moduleTitle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/overallRatingBadgeLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ratingLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip">
+            <ImageView android:id="@id/ratingIcon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/system_icon_star_filled" android:layout_marginEnd="8.0dip" />
+            <TextView android:gravity="center" android:id="@id/ratingValue" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Heading1_Black" />
+        </LinearLayout>
+        <View android:id="@id/overallRatingBadgeBorder" android:background="@color/neutral_30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="35.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/badgeLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+            <TextView android:gravity="center" android:id="@id/tvTop3Highlights" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="16.0dip" android:text="@string/item_view_item_badge_top_3_highlights" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/Heading5_Green" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@id/explainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/Body2_Gray" />
+    </LinearLayout>
+</RelativeLayout>

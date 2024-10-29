@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/checkMailConsentLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatCheckBox android:textColor="@color/neutral_80" android:id="@id/cbMailConsent" android:background="@drawable/system_icon_checkbox" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" android:button="@android:color/transparent" android:contentDescription="@string/terms_allow_email" app:theme="@style/checkbox_style_black" />
+        <TextView android:textColorLink="@color/neutral_80" android:id="@id/tvMailConsent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/terms_allow_email" android:layout_marginStart="14.0dip" style="@style/Body1_Black" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/checkTermsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/checkMailConsentLayout">
+        <androidx.appcompat.widget.AppCompatCheckBox android:textColor="@color/neutral_80" android:id="@id/cbTerms" android:background="@drawable/system_icon_checkbox" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" android:button="@android:color/transparent" app:theme="@style/checkbox_style_black" />
+        <TextView android:textColorLink="@color/neutral_80" android:id="@id/tvTerms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_marginStart="14.0dip" style="@style/Body1_Black" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#1f000000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_focused="true" android:state_enabled="false" android:drawable="@drawable/APKTOOL_DUMMY_1d3" />
+            <item android:state_enabled="false" android:drawable="@drawable/APKTOOL_DUMMY_1d2" />
+            <item android:state_focused="true" android:drawable="@drawable/APKTOOL_DUMMY_1d3" />
+            <item android:drawable="@drawable/APKTOOL_DUMMY_1d2" />
+        </selector>
+    </item>
+</ripple>

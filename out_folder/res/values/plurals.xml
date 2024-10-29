@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="badges_banner_body_earned">
+        <item quantity="other">%1$sCongrats!%2$s You’ve earned %3$d new badges.</item>
+        <item quantity="one">%1$sCongrats!%2$s You’ve earned a new badge.</item>
+    </plurals>
+    <plurals name="banner_collection_ends_in">
+        <item quantity="other">Collection ends in %1$d minutes</item>
+        <item quantity="one">Collection ends in 1 minute</item>
+    </plurals>
+    <plurals name="banner_collection_starts_in">
+        <item quantity="other">Collection starts in %1$d minutes</item>
+        <item quantity="one">Collection starts in 1 minute</item>
+    </plurals>
+    <plurals name="banner_popup_alt_description">
+        <item quantity="other">Tap below to open and swipe them in store when you collect your meals.</item>
+        <item quantity="one">Tap below to open and swipe it in store when you collect your meal.</item>
+    </plurals>
+    <plurals name="banner_popup_alt_title">
+        <item quantity="other">Your orders are here</item>
+        <item quantity="one">Your order is here</item>
+    </plurals>
+    <plurals name="banner_tap_here_to_view_it">
+        <item quantity="other">Tap here to view them</item>
+        <item quantity="one">Tap here to view it</item>
+    </plurals>
+    <plurals name="banner_your_magic_parcel">
+        <item quantity="other">Your orders</item>
+        <item quantity="one">Your Parcel order</item>
+    </plurals>
+    <plurals name="banner_your_order">
+        <item quantity="other">Your orders</item>
+        <item quantity="one">Your order</item>
+    </plurals>
+    <plurals name="c2c_v3_invite_friends_completed_screen_info_body">
+        <item quantity="other">Thanks to you, %1$d friends are saving food from going to waste and helping the planet. Now, enjoy your vouchers and grab your next Surprise Bag!</item>
+        <item quantity="one">Thanks to you, your friend is saving food from going to waste and helping the planet. Now, enjoy your voucher and grab your next Surprise Bag!</item>
+    </plurals>
+    <plurals name="c2c_v3_invite_friends_congrats_popup_description">
+        <item quantity="other">"Thanks to you, your friends have started rescuing food - together, you’re multiplying your impact on the planet!
+
+Here’s your reward: %1$s vouchers worth %2$s to use towards new Surprise Bags. They're already in your account."</item>
+        <item quantity="one">"Thanks to you, a friend has started rescuing food - together, you’re multiplying your impact on the planet!
+
+Here’s your reward: a %2$s voucher to use towards a Surprise Bag before %3$s. It’s already in your account."</item>
+    </plurals>
+    <plurals name="c2c_v3_invite_friends_congrats_popup_title">
+        <item quantity="other">You deserve these vouchers!</item>
+        <item quantity="one">You deserve this voucher!</item>
+    </plurals>
+    <plurals name="c2c_v3_invite_friends_description">
+        <item quantity="other">Invite friends to try the Too Good To Go app! When they save their first Surprise Bag, you’ll earn %1$s vouchers.</item>
+        <item quantity="one">Invite friends to try the Too Good To Go app! When a friend saves their first Surprise Bag, you’ll earn a %1$s voucher.</item>
+    </plurals>
+    <plurals name="c2c_v3_invite_friends_profile_card_all_rewards_achieved_body">
+        <item quantity="other">Thanks to you, %1$d friends are saving food from going to waste and helping the planet. Now, enjoy your vouchers and grab your next Surprise Bag!</item>
+        <item quantity="one">Thanks to you, a friend is saving food from going to waste and helping the planet. Now, enjoy your voucher and grab your next Surprise Bag!</item>
+    </plurals>
+    <plurals name="c2c_v3_invite_friends_profile_card_body_days">
+        <item quantity="other">Only %1$s%2$d days%3$s left to earn vouchers and make a difference!</item>
+        <item quantity="one">Just %1$s%2$d day%3$s left to earn vouchers and make a difference!</item>
+    </plurals>
+    <plurals name="c2c_v3_invite_friends_profile_card_hours_title">
+        <item quantity="other">%1$d hours left to earn vouchers</item>
+        <item quantity="one">%1$d hour left to earn vouchers</item>
+    </plurals>
+    <plurals name="charity_donation_from">
+        <item quantity="other">%d x donations from</item>
+        <item quantity="one">%d x donation from</item>
+    </plurals>
+    <plurals name="charity_inventory_update_title">
+        <item quantity="other">%1$s inventory updates</item>
+        <item quantity="one">%1$s inventory update</item>
+    </plurals>
+    <plurals name="charity_item_donation_inventory_items">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="charity_orderview_information_item_info_label">
+        <item quantity="other">donations</item>
+        <item quantity="one">donation</item>
+    </plurals>
+    <plurals name="map_sheet_bag_count">
+        <item quantity="other">%1$s Surprise Bags</item>
+        <item quantity="one">%1$s Surprise Bag</item>
+    </plurals>
+    <plurals name="mnu_item_count">
+        <item quantity="other">%1s items</item>
+        <item quantity="one">%1s item</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="order_magic_bag">
+        <item quantity="other">Surprise Bags</item>
+        <item quantity="one">Surprise Bag</item>
+    </plurals>
+    <plurals name="profile_voice_over_loyalty_card_points">
+        <item quantity="other">%1$d out of nine points earned</item>
+        <item quantity="one">%1$d out of nine points earned</item>
+    </plurals>
+    <plurals name="store_view_badge_months_on_platform_months">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
+    </plurals>
+    <plurals name="store_view_badge_months_on_platform_years">
+        <item quantity="other">%d years</item>
+        <item quantity="one">%d year</item>
+    </plurals>
+    <plurals name="user_referral_discover_favorites_card_header_days">
+        <item quantity="other">"You have %1$s%2$d days%3$s 
+to invite a friend"</item>
+        <item quantity="one">"You have %1$s%2$d day%3$s 
+to invite a friend"</item>
+    </plurals>
+    <plurals name="user_referral_discover_favorites_card_header_hours">
+        <item quantity="other">"You have %1$s%2$d hours%3$s 
+to invite a friend"</item>
+        <item quantity="one">"You have %1$s%2$d hour%3$s 
+to invite a friend"</item>
+    </plurals>
+    <plurals name="user_referral_invite_friend_counter_body_days">
+        <item quantity="other">"%1$d
+days"</item>
+        <item quantity="one">"%1$d
+day"</item>
+    </plurals>
+    <plurals name="user_referral_invite_friend_counter_body_hours">
+        <item quantity="other">"%1$d
+hours"</item>
+        <item quantity="one">"%1$d
+hour"</item>
+    </plurals>
+    <plurals name="user_referral_mepage_card_body_days">
+        <item quantity="other">%1$s%2$d days%3$s left! Share a voucher for a free Surprise Bag with a friend.</item>
+        <item quantity="one">%1$s%2$d day%3$s left! Share a voucher for a free Surprise Bag with a friend.</item>
+    </plurals>
+    <plurals name="user_referral_mepage_card_body_hours">
+        <item quantity="other">%1$s%2$d hours%3$s left! Share a voucher for a free Surprise Bag with a friend.</item>
+        <item quantity="one">%1$s%2$d hour%3$s left! Share a voucher for a free Surprise Bag with a friend.</item>
+    </plurals>
+    <plurals name="voice_over_minute">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="voice_over_voucher_details_history_usage_subtracted_country">
+        <item quantity="other">Minus %1$d Surprise Bags</item>
+        <item quantity="one">Minus 1 Surprise Bag</item>
+    </plurals>
+    <plurals name="voucher_details_history_usage_added_country">
+        <item quantity="other">Plus %1$d Surprise Bags</item>
+        <item quantity="one">Plus 1 Surprise Bag</item>
+    </plurals>
+</resources>

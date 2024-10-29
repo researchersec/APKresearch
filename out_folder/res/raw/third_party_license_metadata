@@ -1,0 +1,340 @@
+0:46 Compose Animation Core
+47:66 Braze SDK (android-sdk-base)
+0:46 analytics-core
+0:46 Material Components for Android
+0:46 Lifecycle-Common
+114:35 Adyen Checkout Components Core
+0:46 Activity
+114:35 Amplitude Analytics SDK Connector
+0:46 Android Support ExifInterface
+0:46 DataStore
+0:46 Browser
+150:47 Retrofit BOM
+150:47 Converter: kotlinx.serialization
+0:46 Tink Cryptography API for Android
+0:46 DataStore Core
+0:46 AppCompat Resources
+0:46 Materialize Library
+198:70 Facebook-Login-Android-SDK
+114:35 Adyen Client Side Encryption
+0:46 javax.inject
+269:47 play-services-tasks
+317:1096 Animal Sniffer
+1414:1892 Checker Framework Annotations
+3307:11357 Error Prone
+14665:11358 Guava JDK5
+26024:11362 Guava JDK7
+37387:81008 J2ObjC
+118396:1602 JSR 305
+14665:11358 JSpecify
+119999:11307 JsInterop Annotations
+131307:105133 Kotlin
+3307:11357 Kotlin coroutines
+14665:11358 SafeParcelable library
+236441:10695 apksig
+14665:11358 gsfclient
+247137:9116 java_annotations
+256254:11356 kotlinx_atomicfu
+0:46 Android Support AnimatedVectorDrawable
+269:47 play-services-measurement
+14665:11358 Dagger
+267611:11357 Firebase
+14665:11358 Google Auto
+278969:11359 HighwayHash
+14665:11358 JSR 250
+290329:11365 JSR 330
+301695:11357 Jakarta Inject
+313053:1732 Protocol Buffers for Java
+314786:1036 checker_framework_util
+0:46 Android Arch-Runtime
+0:46 Android App Startup Runtime
+150:47 coil
+269:47 play-services-basement
+0:46 com.google.firebase:firebase-dynamic-links
+269:47 play-services-wallet
+0:46 Saved State
+0:46 Compose Material Ripple
+269:47 play-services-auth-base
+14665:11358 Tink
+198:70 Facebook-Bolts-Android-SDK
+0:46 com.google.android.datatransport:transport-backend-cct
+0:46 Compose Material3 Components
+0:46 Compose Geometry
+0:46 FastAdapter Library-Extensions
+0:46 Lifecycle-Common for Java 8
+0:46 Android ConstraintLayout Core
+0:46 DataStore Core Okio
+0:46 Lifecycle ViewModel Compose
+0:46 Lifecycle LiveData
+0:46 Compose Material Components
+0:46 Autofill
+0:46 Compose Graphics
+114:35 Adyen checkout iDEAL component
+150:47 kotlinx-coroutines-core
+0:46 AndroidX Futures
+0:46 com.google.firebase:firebase-encoders-json
+0:46 androidx.databinding:databinding-ktx
+0:46 Room Kotlin Extensions
+0:46 firebase-encoders-proto
+0:46 SavedState Kotlin Extensions
+0:46 Android Emoji2 Compat
+0:46 Kotlin Libraries bill-of-materials
+0:46 Activity Compose
+0:46 Core
+114:35 Adyen checkout BCMC component
+0:46 Android Support Library Drawer Layout
+0:46 Navigation Fragment Hilt Extension
+0:46 Kotlin Stdlib
+0:46 Compose Animation
+0:46 Lifecycle LiveData Core
+0:46 DataStore
+0:46 Compose Geometry
+0:46 Compose Graphics
+0:46 Android Support Library Cursor Adapter
+0:46 androidx.customview:poolingcontainer
+114:35 Adyen Checkout Core module
+114:35 Adyen Checkout Action Core component
+0:46 Lifecycle Service
+150:47 kotlinx-serialization-json
+0:46 androidx.databinding:viewbinding
+315823:52 review-ktx
+150:47 coil-compose-base
+269:47 play-services-measurement-base
+0:46 firebase-encoders
+0:46 Lifecycle Kotlin Extensions
+0:46 Compose Saveable
+0:46 Compose Material Icons Core
+150:47 Gson
+0:46 Jetpack WindowManager Library
+0:46 Android Support Library Custom View
+0:46 Compose UI Text
+0:46 Android Support VectorDrawable
+0:46 com.google.firebase:firebase-components
+0:46 Experimental annotation
+315876:68 Proguard Annotations
+269:47 firebase-analytics
+269:47 firebase-auth-interop
+315945:10694 AndroidX lifecycle common library
+315945:10694 AndroidX lifecycle livedatacore library
+315945:10694 AndroidX lifecycle runtime library
+150:47 Converter: Scalars
+0:46 Lifecycle ViewModel Compose
+0:46 Navigation Compose Hilt Integration
+150:47 Dagger
+269:47 play-services-identity
+0:46 VersionedParcelable
+269:47 play-services-fido
+326640:1558 chrome_sync
+150:47 kotlinx-coroutines-bom
+0:46 Accompanist Drawable Painter library
+269:47 play-services-auth
+0:46 Compose UI Text
+315823:52 app-update
+0:46 com.google.firebase:firebase-installations
+0:46 Android Support Library loader
+0:46 FastAdapter Library
+0:46 Navigation Runtime Kotlin Extensions
+0:46 Compose Navigation
+0:46 Android Support DynamicAnimation
+0:46 Annotation
+150:47 Moshi
+198:70 Facebook-Common-Android-SDK
+0:46 Navigation UI
+114:35 Amplitude Android Kotlin SDK
+150:47 Hilt Android
+0:46 Parcelize Runtime
+114:35 Adyen checkout MB WAY component
+0:46 fragment
+269:47 firebase-iid-interop
+0:46 androidx.databinding:databinding-runtime
+328199:41 AppsFlyerSDK
+0:46 com.google.firebase:firebase-sessions
+0:46 Compose Material Icons Core
+0:46 Lifecycle Runtime Compose
+0:46 Core Kotlin Extensions
+0:46 Lifecycle-Common
+0:46 Lifecycle Runtime Compose
+0:46 Android Support Library core utils
+269:47 play-services-measurement-sdk-api
+0:46 androidx.privacysandbox.ads:ads-adservices-java
+0:46 com.google.firebase:firebase-common
+0:46 Lifecycle ViewModel
+0:46 Kotlin Stdlib Common
+0:46 Android Resource Inspection - Annotations
+0:46 kotlinx-datetime
+269:47 play-services-oss-licenses
+114:35 Adyen Checkout Card component
+0:46 Navigation Common Kotlin Extensions
+269:47 play-services-maps
+0:46 Jetpack Compose Libraries BOM
+0:46 Compose Util
+0:46 Compose Layouts
+114:35 Adyen Checkout Blik Component
+0:46 Lifecycle Process
+114:35 Adyen checkout QR code component
+0:46 Compose Layouts
+150:47 kotlinx-serialization-bom
+0:46 Lifecycle ViewModel Kotlin Extensions
+0:46 core
+0:46 FastAdapter Library
+114:35 Adyen Checkout Await component
+0:46 Preferences DataStore Core
+0:46 Android Support Library media compat
+0:46 Timber
+150:47 Moshi Kotlin
+0:46 Android Support Library Local Broadcast Manager
+150:47 kotlinx-coroutines-core
+0:46 Navigation UI Kotlin Extensions
+0:46 Collections Kotlin Extensions
+269:47 play-services-measurement-impl
+0:46 Compose Material Components
+0:46 Android Graphics Path
+269:47 play-services-ads-identifier
+328241:1125 Checker Framework Utilities
+0:46 Android Support Library Sliding Pane Layout
+0:46 LiveData Core Kotlin Extensions
+0:46 Android Emoji2 Compat view helpers
+0:46 androidx.databinding.databinding-common
+114:35 Adyen Checkout sessions core module
+0:46 Android Support Library core UI
+0:46 Activity Kotlin Extensions
+0:46 Room-Common
+0:46 Preferences DataStore Core
+0:46 FastAdapter Library-Extensions-Expandable
+0:46 okio
+0:46 Android Support Library Document File
+114:35 Adyen Checkout Voucher component
+0:46 com.google.android.datatransport:transport-runtime
+0:46 com.google.firebase:firebase-installations-interop
+0:46 Lifecycle ViewModel with SavedState
+0:46 Android Support Library Interpolators
+0:46 androidx.databinding:databinding-adapters
+315823:52 app-update-ktx
+0:46 Navigation Runtime
+150:47 Hilt Core
+0:46 WorkManager Hilt Extension
+0:46 com.google.firebase:firebase-bom
+269:47 play-services-cloud-messaging
+0:46 Adyen 3DS2 Android SDK
+0:46 DataDome Android SDK
+150:47 kotlinx-serialization-core
+0:46 androidx.profileinstaller:profileinstaller
+0:46 collections
+315823:52 review
+0:46 com.google.firebase:firebase-crashlytics
+329367:11361 Tape
+0:46 Compose Foundation
+0:46 Compose Runtime
+0:46 WebView Support Library
+0:46 okio
+0:46 Lifecycle Runtime
+0:46 Compose Unit
+150:47 kotlinx-coroutines-android
+0:46 Navigation Common
+269:47 play-services-location
+0:46 Android Support Library Async Layout Inflater
+0:46 Kotlin Stdlib Jdk8
+0:46 firebase-annotations
+0:46 AndroidX Security
+0:46 Kotlin Stdlib Jdk7
+0:46 kotlinx-datetime
+0:46 Room-Runtime
+0:46 Navigation Fragment Kotlin Extensions
+0:46 Preferences DataStore
+0:46 collections
+0:46 Lifecycle Kotlin Extensions
+0:46 Biometric Kotlin Extensions
+340729:43 Lottie
+0:46 com.google.firebase:firebase-messaging
+340773:34 Checker Qual
+269:47 play-services-base
+0:46 Compose UI
+0:46 Compose Material Ripple
+0:46 Android Arch-Common
+269:47 play-services-stats
+114:35 Adyen checkout issuer list component
+0:46 Compose Foundation
+0:46 Navigation Fragment
+0:46 Compose Animation
+0:46 com.google.firebase:firebase-common-ktx
+0:46 Android Support CardView v7
+150:47 Retrofit
+0:46 Android Tracing
+150:47 kotlinx-serialization-core
+0:46 Compose Material3 Components
+198:70 Facebook-Core-Android-SDK
+0:46 android-maps-utils
+0:46 logging
+0:46 ConstraintLayout for Jetpack Compose
+0:46 Compose Runtime
+0:46 Android Support Library Coordinator Layout
+150:47 coil-svg
+0:46 Android Support Library v4
+114:35 Adyen checkout redirect component
+0:46 FindBugs-jsr305
+0:46 okhttp-logging-interceptor
+150:47 JetBrains Java Annotations
+0:46 Navigation Hilt Extension
+0:46 Annotation
+0:46 SQLite
+114:35 Adyen checkout 3DS2 component
+150:47 coil-base
+0:46 SQLite Framework Integration
+0:46 WorkManager Runtime
+0:46 ViewPager2
+0:46 Compose LiveData integration
+0:46 Privacy Sandbox for Ad Services
+0:46 AppCompat
+47:66 Braze SDK (android-sdk-ui)
+0:46 Compose UI Preview Tooling
+0:46 AndroidSVG
+0:46 DataStore Core Okio
+0:46 DataStore Core
+150:47 kotlinx-serialization-json
+0:46 WorkManager Kotlin Extensions
+340729:43 Lottie Compose
+0:46 Biometric
+0:46 Android Support Library Custom View
+0:46 Compose Unit
+269:47 com.android.installreferrer:installreferrer
+315823:52 core-common
+0:46 Fragment Kotlin Extensions
+0:46 J2ObjC Annotations
+269:47 play-services-measurement-api
+340808:40 Bouncy Castle Provider
+0:46 Lifecycle ViewModel
+0:46 Android Support Library View Pager
+0:46 Preferences DataStore
+0:46 Transition
+150:47 coil-compose
+269:47 firebase-measurement-connector
+14665:11358 FlatBuffers
+340849:12521 archive_patcher
+353371:9217 p2putils
+0:46 com.google.android.datatransport:transport-api
+0:46 Android Support Library Print
+0:46 Compose Util
+0:46 Hilt Common
+150:47 kotlinx-coroutines-play-services
+0:46 Android Support RecyclerView
+269:47 play-services-auth-api-phone
+114:35 Adyen checkout Google Pay component
+0:46 Jakarta Dependency Injection
+0:46 Kotlin Reflect
+0:46 Compose UI Preview Tooling
+269:47 play-services-measurement-sdk
+0:46 Kotlin Android Extensions Runtime
+114:35 Adyen checkout base UI component
+0:46 Lifecycle Runtime
+0:46 com.google.firebase:firebase-datatransport
+114:35 Adyen checkout Cash App Pay component
+0:46 Android ConstraintLayout
+198:70 Facebook-Share-Android-SDK
+0:46 Compose Saveable
+0:46 error-prone annotations
+0:46 Compose UI
+0:46 com.google.firebase:firebase-config-interop
+150:47 Dagger Lint Rules AAR Distribution
+0:46 Compose ViewBinding
+150:47 okhttp
+0:46 Compose Animation Core

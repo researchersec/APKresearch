@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/orderRoot" android:tag="layout/order_view_manufacturer_container_0" android:background="@color/beige_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/toolbar_beige" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvOrder" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_below="@id/toolbar" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <ImageView android:id="@id/dimView" android:background="@color/color_transparent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="5.0dip" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/group_debug" android:visible="true" android:checkableBehavior="none">
+        <item android:id="@id/topMargin" android:title="" />
+        <item android:id="@id/normalLatency" android:title="Normal latency" />
+        <item android:id="@id/highLatency" android:title="Add 500ms latency" />
+        <item android:id="@id/clearEmailSeen" android:title="Clear Email opt-in seen" />
+        <item android:id="@id/clearPushSeen" android:title="Clear Push opt-in seen" />
+        <item android:id="@id/clearTimestampOptIn" android:title="Clear opt-in timestamp" />
+        <item android:id="@id/APKTOOL_DUMMY_36b" android:title="Go to success animation" />
+        <item android:id="@id/APKTOOL_DUMMY_368" android:title="Go to donation success animation" />
+        <item android:id="@id/APKTOOL_DUMMY_369" android:title="Fake app block" />
+        <item android:id="@id/APKTOOL_DUMMY_36c" android:title="Purchase failed" />
+        <item android:id="@id/APKTOOL_DUMMY_367" android:title="Go to autorefund screen" />
+        <item android:id="@id/cancelledOrderWithRecommendation" android:title="Cancelled order with recommendation" />
+        <item android:id="@id/cancelledOrder" android:title="Cancelled order without recommendation" />
+        <item android:id="@id/newButtons" android:title="New buttons" />
+    </group>
+</menu>

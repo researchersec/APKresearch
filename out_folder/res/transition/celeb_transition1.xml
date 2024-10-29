@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet>
+        <fade android:duration="300" android:fadingMode="fade_in">
+            <targets>
+                <target android:targetId="@id/subTitleTv" />
+            </targets>
+        </fade>
+        <changeBounds android:duration="300">
+            <targets>
+                <target android:targetId="@id/image" />
+                <target android:targetId="@id/titleTv" />
+                <target android:targetId="@id/subTitleTv" />
+                <target android:targetId="@id/image" />
+            </targets>
+        </changeBounds>
+    </transitionSet>
+</transitionSet>

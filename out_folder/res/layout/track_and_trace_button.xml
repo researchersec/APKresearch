@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/track_and_trace_button_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/button" android:visibility="visible" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="6.0dip" android:paddingStart="54.0dip" android:paddingEnd="54.0dip" style="@style/button_secondary_main_bg" />
+</FrameLayout>

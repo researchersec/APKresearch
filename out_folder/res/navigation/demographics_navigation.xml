@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/rating_navigation" app:startDestination="@id/questionsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="DemographicsQuestionsFragment" android:name="com.app.tgtg.activities.demographics.questions.DemographicsQuestionsFragment" android:id="@id/questionsFragment">
+        <action android:id="@id/toThanksFragment" app:destination="@id/thanksFragment" />
+    </fragment>
+    <fragment android:label="DemographicsThanksFragment" android:name="com.app.tgtg.activities.demographics.thanks.DemographicsThanksFragment" android:id="@id/thanksFragment" />
+</navigation>
